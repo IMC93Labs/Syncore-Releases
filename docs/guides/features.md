@@ -1,49 +1,55 @@
-# SYNCORE — Features / Funciones
+# SYNCORE v2.0.0 — Features / Funciones
+
+**Public stable release / Versión estable pública:** [SYNCORE v2.0.0](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.0.0) · [Download installer / Descargar instalador](https://github.com/IMC93Labs/Syncore-Releases/releases/download/v2.0.0/SynCore-Setup-v2.0.0.exe)
 
 [English](#english) · [Español](#espanol)
-
-> SYNCORE 2.0 is in development. The publicly available stable release is **Game Sync Hub v1.1.0**. Features under development must not be presented as currently downloadable.
->
-> SYNCORE 2.0 está en desarrollo. La versión estable pública es **Game Sync Hub v1.1.0**. Las funciones en desarrollo no deben presentarse como disponibles para descargar.
 
 ---
 
 <a id="english"></a>
 ## English
 
-### Product direction for SYNCORE 2.0 (pending final release acceptance)
+### Library, artwork and launch
+- Desktop library for installed and remote-library games; configure games on each PC independently.
+- Game launch, metadata, cover and background selection, and controller-friendly Console Mode.
+- Optional controller virtualization; the installer includes HidHide setup and HIDMaestro preparation.
 
-- **Library:** local games, EXE/LNK launchers, installed and not-installed states, artwork, metadata and play activity.
-- **Console Mode:** controller-first library and launching from a TV or couch.
-- **Controllers:** host/virtual controller lifecycle, Control Center and rumble. Physical HID isolation and bundled setup are undergoing final validation.
-- **Saves/Cloud:** local-first safety, Google Drive verification, independent PC restore, durable recovery, CAS conflict protection, Current/Previous, deferred history audit and conservative orphan cleanup.
-- **Previous saves:** import ZIP or folders without needing an installed game; guide the user through connecting an imported backup to a game's actual save folder. Activation of imported saves is still being validated.
-- **Performance overlay:** game metrics; FPS/frametime can use the RTSS shared-memory integration when RTSS is running. Physical release acceptance is pending.
-- **Settings and updates:** installed Windows app with controlled updates and safety gates.
+### Save protection and recovery
+- Choose a game's save folder and protect it via a verified local managed copy and NTFS junction.
+- Compare local and Google Drive save versions before selecting which one to activate or preserve.
+- Google Drive `Current`, `Previous`, recoverable history, imports and manual recovery.
+- Recover on another PC using a device-specific profile. Journaled operations can resume following interruptions.
+- Conservative handling of existing saves and backups; technical backups are removed only after they are verified redundant.
+- Stable releases distributed through this repository.
 
-The complete, tested v2.0 feature list and hardware/software requirements will replace this development overview at release.
+### Requirements and boundaries
+Windows 10/11 x64; a **local NTFS volume** for save junctions. Cloud functionality requires user-provided Google Drive OAuth Desktop App configuration. Keep independent backups of important saves. The installer is not Authenticode-signed; verify its [published SHA-256](../../README.md#download-and-install).
 
-### What can users download today?
+The final installer passed automated checks and an isolated launch test; a physical installation on clean Windows has not yet been recorded. Hardware-specific or game-specific behaviour may vary. For details, see the [v2.0.0 release notes](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.0.0).
 
-[Game Sync Hub v1.1.0 stable](https://github.com/IMC93Labs/GameSyncHub-Releases/releases/latest). Its own [release notes](../releases/v1.1.0.md) describe what that version actually supports.
+Previous [Game Sync Hub v1.1.0 notes](../releases/v1.1.0.md) are historical documentation, not the current stable release.
 
 ---
 
 <a id="espanol"></a>
 ## Español
 
-### Enfoque de SYNCORE 2.0 (pendiente de aceptación final)
+### Biblioteca, imágenes y ejecución
+- Biblioteca de juegos instalados y recuperados de Drive; configuración independiente por equipo.
+- Lanzamiento de juegos, metadatos, elección de portadas y fondos y Modo consola con mando.
+- Virtualización opcional de mandos; el instalador incluye la preparación de HidHide y HIDMaestro.
 
-- **Biblioteca:** juegos locales, accesos EXE/LNK, estados instalado/no instalado, imágenes, metadatos y actividad.
-- **Modo consola:** biblioteca y lanzamiento con mando desde televisión o sofá.
-- **Mandos:** ciclo de vida del host/mando virtual, Centro de Control y vibración. Aún faltan las validaciones finales del aislamiento HID y la preparación automática de dependencias.
-- **Partidas/Cloud:** protección local-first, verificación en Google Drive, restauración independiente en otro PC, recuperación durable, conflictos CAS, Current/Previous, auditoría histórica diferida y limpieza conservadora de paquetes huérfanos.
-- **Partidas antiguas:** importar ZIP o carpetas aunque el juego no esté instalado y configurar después la correspondencia con la carpeta real de guardado. La activación de partidas importadas sigue en validación.
-- **OSD:** métricas durante el juego; FPS/frametime puede obtenerse mediante la integración de memoria compartida RTSS cuando RTSS se ejecuta. Falta la aceptación física final.
-- **Configuración y actualizaciones:** aplicación instalada para Windows con actualizaciones controladas y protecciones.
+### Protección y recuperación de partidas
+- Selecciona la carpeta de partidas y protégela mediante una copia local gestionada y verificada con junction NTFS.
+- Compara partidas locales y de Google Drive antes de decidir cuál activar o conservar.
+- `Current`, `Previous`, historial recuperable, importaciones y recuperación manual en Google Drive.
+- Recuperación en otro PC con perfil propio. Operaciones registradas en journals y reanudables tras interrupciones.
+- Tratamiento conservador de partidas y copias: los respaldos técnicos se retiran solo tras comprobar que son redundantes.
+- Versiones estables distribuidas desde este repositorio.
 
-La lista definitiva de funciones y requisitos de v2.0 sustituirá este resumen cuando se publique la versión.
+### Requisitos y límites
+Windows 10/11 x64; **volumen NTFS local** para los junctions. Google Drive requiere la configuración OAuth Desktop App aportada por el usuario. Conserva copias independientes de las partidas importantes. El instalador no está firmado con Authenticode; verifica su [SHA-256 publicado](../../README.md#descarga-e-instalación).
 
-### ¿Qué se puede descargar actualmente?
+El instalador final superó pruebas automatizadas y un arranque aislado; todavía no consta una instalación física en Windows limpio. El funcionamiento puede variar según el equipo y el juego. Consulta las [notas de v2.0.0](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.0.0).
 
-[Game Sync Hub v1.1.0 estable](https://github.com/IMC93Labs/GameSyncHub-Releases/releases/latest). Sus [notas de versión](../releases/v1.1.0.md) describen las funciones realmente publicadas.
+Las [notas de Game Sync Hub v1.1.0](../releases/v1.1.0.md) se conservan como documentación histórica y no representan la versión estable actual.
