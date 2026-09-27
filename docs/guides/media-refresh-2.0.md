@@ -1,20 +1,17 @@
 # SYNCORE 2.0 — media refresh checklist / Renovación multimedia
 
-**Status / Estado:** Pending final SYNCORE 2.0 interface and physical acceptance / Pendiente de interfaz y aceptación física definitivas.
+**Status / Estado:** SYNCORE v2.0.0 has been published; the new screenshots and GIFs are still pending a privacy-reviewed capture. / SYNCORE v2.0.0 ya está publicado; siguen pendientes las capturas y GIF nuevos revisados para proteger la privacidad.
 
-- [ ] Official SYNCORE symbol and wordmark (use approved files; do not recreate or alter logo).
-- [ ] Main Windows library, including installed/not installed and save-protection badges.
-- [ ] Modern Add Game / Edit Game wizard, media selection, correct cover and background preview.
-- [ ] Import ZIP/RAR or folders **only after RAR support is implemented and validated**.
-- [ ] Guided activation of imported saves, with no personal paths or actual save data visible.
-- [ ] Console Mode and Control Center, with no real account information.
-- [ ] Controller settings after HidHide lifecycle and bundled-dependency validation.
-- [ ] FPS/frametime overlay after physical acceptance.
-- [ ] Safe cloud recovery and update screens.
-- [ ] Updated GIFs: game setup, Console Mode, controller handoff; avoid flicker, stale design and personal identifiers.
-- [ ] Replace references in README, guides and issue templates only with verified new media.
-- [ ] Preserve historical v1.1.0 release notes, tags, assets and update contract.
+- [ ] Official SYNCORE symbol and wordmark (use approved files; do not recreate or alter the logo).
+- [ ] Windows Library showing installed/not installed and save-protection states.
+- [ ] Configure game wizard, candidate selection, cover and background preview.
+- [ ] Console Mode, controller settings and Control Center with generic user data.
+- [ ] Guided Google Drive conflict choice and verified second-PC save recovery.
+- [ ] Recovery and updates views with no personal paths or real save files.
+- [ ] Any game overlay or optional third-party-dependent feature only after a representative capture has been validated.
+- [ ] Updated GIFs: game setup and Console Mode; no private accounts, stale design or user identifiers.
+- [ ] Replace historical references in README and guides only with genuine v2.0 media.
 
-No fake 2.0 screenshots, fabricated test counts, unpublished installer links or personal save files.
+Old images in `docs/media/` belong to **Game Sync Hub 1.x**. They are retained only for historical reference and must not be presented as SYNCORE 2.0.
 
-No inventar capturas 2.0, resultados de tests, descargas no publicadas ni compartir partidas personales.
+No fake screenshots, fabricated test counts, personal save files or credentials. / No inventar capturas, pruebas ni publicar partidas o credenciales personales.
