@@ -13,13 +13,13 @@ body:
         **Personal hobby project / Proyecto personal:** SYNCORE (formerly Game Sync Hub) is developed in free time through AI-assisted vibe coding. It is provided as-is, without guarantees. Do not include passwords, tokens, credentials, private save files or personal information.
         SYNCORE se desarrolla en el tiempo libre mediante vibe coding asistido por IA. Se proporciona tal cual, sin garantías. No incluyas contraseñas, tokens, credenciales, partidas privadas ni información personal.
 
-        Read / Lee: [Disclaimer / Aviso y responsabilidad](https://github.com/IMC93Labs/GameSyncHub-Releases/blob/main/DISCLAIMER.md)
+        Read / Lee: [Disclaimer / Aviso y responsabilidad](https://github.com/IMC93Labs/Syncore-Releases/blob/main/DISCLAIMER.md)
 
   - type: input
     id: version
     attributes:
       label: SYNCORE version / Versión de SYNCORE o Game Sync Hub
-      placeholder: "e.g. / ej. Game Sync Hub v1.1.0"
+      placeholder: "e.g. / ej. SYNCORE v2.0.0"
     validations:
       required: true
 
