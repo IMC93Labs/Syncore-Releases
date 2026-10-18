@@ -1,71 +1,55 @@
-# Security Policy / Política de seguridad
+# 🔐 Política de seguridad / Security policy
 
-> **Current stable release / Versión estable actual:** [SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.1). Game Sync Hub v1.1.0 remains available in the historical release archive. / Game Sync Hub v1.1.0 se conserva en el historial de versiones.
+> **SYNCORE Games** · [Inicio / Home](README.md) · [Descargar / Download](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Guía / Guide](docs/guides/quick-start.md) · [Funciones / Features](docs/guides/features.md) · [Soporte / Support](SUPPORT.md)
 
-[English](#english) · [Español](#espanol)
-
----
-
-<a id="english"></a>
-## English
-
-SYNCORE is a personal hobby project maintained on a best-effort basis.
-
-### Reporting a security issue
-
-Please **do not open a public Issue** for vulnerabilities, exposed credentials, OAuth tokens, private user data or anything that could put other users at risk.
-
-If GitHub shows a **Report a vulnerability** option in the repository's **Security** tab, use that private channel. If that option is not available, open a normal Issue containing **no sensitive technical details** and ask for a private contact channel.
-
-Please include, when safe to do so:
-
-- affected SYNCORE version;
-- Windows version;
-- short description of the impact;
-- reproducible steps using synthetic or non-sensitive data;
-- whether the issue could expose, overwrite or delete user data.
-
-Do not attach real save files, credentials, tokens or personal information unless a private channel has been agreed first.
-
-### Supported versions
-
-Once public releases are available, security fixes will generally target the **latest public release**. Older versions may not receive fixes.
-
-### Response expectations
-
-There is no guaranteed response time, SLA or bug-bounty program. Reports will be reviewed and handled in good faith as time allows.
+**Idioma / Language:** [Español](#español) · [English](#english)
 
 ---
 
-<a id="espanol"></a>
 ## Español
 
-SYNCORE es un proyecto personal realizado como hobby y mantenido en la medida de lo posible.
+### Comunicación privada de vulnerabilidades
 
-### Informar de un problema de seguridad
+**No publiques en Issues** vulnerabilidades, credenciales, tokens OAuth, partidas privadas, datos personales ni instrucciones que puedan poner en riesgo a otros usuarios.
 
-**No abras un Issue público** para vulnerabilidades, credenciales expuestas, tokens OAuth, datos privados de usuarios o cualquier información que pueda poner en riesgo a otras personas.
+Si está disponible, utiliza **Security → Report a vulnerability** en GitHub. En caso contrario, abre un Issue **sin detalles sensibles** y solicita un canal privado. No compartas secretos hasta acordar un medio adecuado.
 
-Si GitHub muestra la opción **Report a vulnerability** en la pestaña **Security** del repositorio, utiliza ese canal privado. Si no estuviera disponible, abre un Issue normal **sin incluir detalles técnicos sensibles** y solicita un canal privado de contacto.
+Para facilitar la investigación, puedes indicar de forma no sensible:
 
-Incluye, cuando sea seguro hacerlo:
+- Versión de SYNCORE y Windows.
+- Descripción breve de las consecuencias posibles.
+- Pasos de reproducción con datos de prueba.
+- Si el problema afecta a confidencialidad o integridad de archivos/partidas.
 
-- versión afectada de SYNCORE;
-- versión de Windows;
-- descripción breve del impacto;
-- pasos reproducibles usando datos sintéticos o no sensibles;
-- si el problema puede exponer, sobrescribir o eliminar datos del usuario.
+### Versiones y tiempos de respuesta
 
-No adjuntes partidas reales, credenciales, tokens ni información personal salvo que se haya acordado previamente un canal privado.
+Las correcciones se orientan normalmente a la [última versión pública](https://github.com/IMC93Labs/Syncore-Releases/releases/latest); las versiones anteriores pueden no recibirlas. El proyecto se mantiene a título personal y **no ofrece un SLA ni programa de recompensas**.
 
-### Versiones soportadas
-
-Cuando existan versiones públicas, las correcciones de seguridad se orientarán normalmente a la **última versión pública**. Las versiones antiguas pueden no recibir correcciones.
-
-### Tiempos de respuesta
-
-No existe un tiempo de respuesta garantizado, SLA ni programa de recompensas por vulnerabilidades. Los avisos se revisarán y gestionarán de buena fe según el tiempo disponible.
+Para errores normales, utiliza [Soporte](SUPPORT.md). Consulta también el [aviso de responsabilidad](DISCLAIMER.md).
 
 ---
 
-**SYNCORE (formerly Game Sync Hub) — IMC93Labs**
+## English
+
+### Private vulnerability reporting
+
+**Do not post** vulnerabilities, credentials, OAuth tokens, private saves, personal information or security-sensitive steps in public Issues.
+
+Use **Security → Report a vulnerability** in GitHub if available. Otherwise open a normal Issue **without sensitive details** and request a private reporting channel. Do not share secrets until a suitable channel is agreed.
+
+Non-sensitive information that helps with triage includes:
+
+- SYNCORE and Windows versions.
+- A short impact description.
+- Reproduction steps using synthetic test data.
+- Whether confidentiality or integrity of files/saves could be affected.
+
+### Supported versions and response times
+
+Security fixes generally target the [latest public release](https://github.com/IMC93Labs/Syncore-Releases/releases/latest); older versions may not receive fixes. This is a personal project with **no SLA or bug bounty**.
+
+For ordinary bugs, use [Support](SUPPORT.md). Also see the [disclaimer](DISCLAIMER.md).
+
+---
+
+<sub>SYNCORE Games · IMC93Labs · [Volver al inicio / Back home](README.md)</sub>

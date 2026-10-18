@@ -1,57 +1,59 @@
-# Support / Soporte
+# 💬 Ayuda y soporte / Help & support
 
-> **Current stable release / Versión estable actual:** [SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.1). Game Sync Hub v1.1.0 remains available in the historical release archive. / Game Sync Hub v1.1.0 se conserva en el historial de versiones.
+> **SYNCORE Games** · [Inicio / Home](README.md) · [Descargar / Download](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Guía / Guide](docs/guides/quick-start.md) · [Funciones / Features](docs/guides/features.md) · [Soporte / Support](SUPPORT.md)
 
-[English](#english) · [Español](#espanol)
-
----
-
-<a id="english"></a>
-## English
-
-SYNCORE is a personal hobby project. Support is provided on a **best-effort basis** and there is no guaranteed response time.
-
-### Where to ask
-
-- **Bug or unexpected behaviour:** use the **Report a bug** Issue form.
-- **Feature request:** use the **Request an improvement** Issue form.
-- **General question, setup help or ideas:** use **Discussions**.
-- **Security-sensitive problem:** follow **[SECURITY.md](SECURITY.md)** and avoid posting sensitive details publicly.
-
-### Before opening a bug report
-
-Please check that you are using the latest available version and search existing Issues first. Include the SYNCORE version, Windows version, affected game and clear reproduction steps whenever possible.
-
-Do not publish passwords, OAuth tokens, credentials, private save files or other personal information.
-
-### Scope
-
-Because this is a hobby project, help may be limited for unusual Windows configurations, modified games, unofficial launchers, third-party tools or situations that cannot be reproduced safely.
+**Idioma / Language:** [Español](#español) · [English](#english)
 
 ---
 
-<a id="espanol"></a>
 ## Español
 
-SYNCORE es un proyecto personal realizado como hobby. El soporte se presta **en la medida de lo posible** y no existe un tiempo de respuesta garantizado.
+### ¿Necesitas ayuda con SYNCORE?
 
-### Dónde pedir ayuda
+Este es el repositorio oficial de **descargas, documentación y soporte**. SYNCORE es un proyecto personal mantenido en la medida de lo posible; **no hay tiempos de respuesta garantizados**.
 
-- **Error o comportamiento inesperado:** utiliza el formulario **Reportar un problema** de Issues.
-- **Propuesta de mejora:** utiliza **Solicitar una mejora**.
-- **Pregunta general, ayuda de configuración o ideas:** utiliza **Discussions**.
-- **Problema relacionado con seguridad:** sigue **[SECURITY.md](SECURITY.md)** y evita publicar detalles sensibles.
+| ¿Qué necesitas? | Dónde dirigirte |
+|---|---|
+| 🐛 Informar de un error | [Abrir un informe de error](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose) |
+| 💡 Proponer una mejora | [Solicitar una mejora](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose) |
+| 💬 Preguntas generales o ayuda de instalación | [Discussions](https://github.com/IMC93Labs/Syncore-Releases/discussions) |
+| 🔐 Comunicar un problema de seguridad | [Política de seguridad](SECURITY.md) — no publiques datos sensibles |
 
-### Antes de informar de un error
+Antes de informar de un error, comprueba que utilizas la [última versión estable](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) y busca si alguien ha descrito el mismo problema. Indica **versión de SYNCORE, versión de Windows, juego afectado (si procede) y pasos para reproducirlo**.
 
-Comprueba que utilizas la versión más reciente disponible y busca primero si ya existe un Issue similar. Siempre que sea posible, indica la versión de SYNCORE, versión de Windows, juego afectado y pasos claros para reproducir el problema.
+**Privacidad:** no adjuntes credenciales de Google, tokens OAuth, correos personales, rutas privadas, archivos de partidas reales ni capturas que los expongan. Revisa los vídeos antes de publicarlos.
 
-No publiques contraseñas, tokens OAuth, credenciales, partidas privadas ni otra información personal.
+Por tratarse de un proyecto personal, puede resultar difícil reproducir casos específicos de hardware, juegos modificados, lanzadores no oficiales o integraciones externas.
 
-### Alcance
+### Enlaces útiles
 
-Al tratarse de un proyecto realizado como hobby, la ayuda puede ser limitada para configuraciones poco habituales de Windows, juegos modificados, launchers no oficiales, herramientas de terceros o situaciones que no puedan reproducirse de forma segura.
+[Primeros pasos](docs/guides/quick-start.md) · [Funciones y limitaciones](docs/guides/features.md) · [Guía visual](docs/guides/visual-documentation.md) · [Aviso legal](DISCLAIMER.md)
 
 ---
 
-**SYNCORE (formerly Game Sync Hub) — IMC93Labs**
+## English
+
+### Need help with SYNCORE?
+
+This is the official repository for **downloads, documentation and community support**. SYNCORE is a personal project maintained on a **best-effort** basis; **no response time is guaranteed**.
+
+| You need to... | Go to... |
+|---|---|
+| 🐛 Report a bug | [Open a bug report](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose) |
+| 💡 Suggest an improvement | [Request a feature](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose) |
+| 💬 Ask a setup or general question | [Discussions](https://github.com/IMC93Labs/Syncore-Releases/discussions) |
+| 🔐 Report a security concern | [Security policy](SECURITY.md) — never post sensitive details publicly |
+
+Before reporting a bug, check the [latest stable release](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) and search existing Issues. Include the **SYNCORE version, Windows version, affected game (if relevant), and clear steps to reproduce the problem**.
+
+**Privacy:** do not attach Google credentials, OAuth tokens, personal email addresses, private paths, real save files or screenshots exposing them. Review videos before posting them publicly.
+
+Hardware-specific issues, modified games, unofficial launchers and external integrations may be difficult to reproduce or support.
+
+### Useful links
+
+[Quick start](docs/guides/quick-start.md) · [Features & limitations](docs/guides/features.md) · [Visual guide](docs/guides/visual-documentation.md) · [Disclaimer](DISCLAIMER.md)
+
+---
+
+<sub>SYNCORE Games · IMC93Labs · [Volver al inicio / Back home](README.md)</sub>

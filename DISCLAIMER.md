@@ -1,87 +1,61 @@
-# Disclaimer / Aviso y responsabilidad
+# ℹ️ Aviso y responsabilidad / Disclaimer
 
-> **Current stable release / Versión estable actual:** [SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.1). Game Sync Hub v1.1.0 remains available in the historical release archive. / Game Sync Hub v1.1.0 se conserva en el historial de versiones.
+> **SYNCORE Games** · [Inicio / Home](README.md) · [Descargar / Download](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Guía / Guide](docs/guides/quick-start.md) · [Funciones / Features](docs/guides/features.md) · [Soporte / Support](SUPPORT.md)
 
-[English](#english) · [Español](#espanol)
-
----
-
-<a id="english"></a>
-## English
-
-### Personal hobby project
-
-SYNCORE is a personal project created as a hobby and developed in the author's free time. **It is not developed by a professional software developer or by a software company.**
-
-### AI-assisted development
-
-The project is developed through **AI-assisted vibe coding**. Artificial-intelligence tools are used to generate, modify, review, document and test parts of the software.
-
-AI systems can make mistakes. Human review, automated tests and manual testing reduce risk, but they cannot guarantee that the application is completely free from defects, unsafe edge cases or unexpected behaviour.
-
-### Safety and data
-
-SYNCORE is designed with the intention of protecting game saves and avoiding data loss. However, depending on the enabled features, it can interact with save files, local folders, NTFS links, application configuration, Google Drive and other Windows components.
-
-Errors, incompatibilities, interrupted operations, third-party service failures or unexpected system conditions can therefore cause incorrect behaviour or data loss.
-
-Before relying on the application, users should keep independent backups of important saves and other valuable data. Testing new versions with non-critical data first is recommended whenever practical.
-
-### Third-party services
-
-Some functions can depend on services or software not controlled by IMC93Labs, including Google Drive, Windows components, games, launchers and other third-party applications. Their availability, behaviour and compatibility can change independently of SYNCORE.
-
-### No warranty
-
-The software is provided **as-is and without warranties**, to the extent permitted by applicable law. No guarantee is made that it will be error-free, uninterrupted, compatible with every game or computer, or suitable for a particular purpose.
-
-Use of SYNCORE is voluntary. Each user is responsible for deciding whether to run it, for maintaining appropriate backups and for the consequences of using it on their own system and data.
-
-Nothing in this notice is intended to exclude or limit rights or responsibilities that cannot legally be excluded or limited under applicable law.
-
-### Reporting problems
-
-Please report reproducible bugs through **Issues**. Security-sensitive problems, credentials, tokens or private user data should **not** be posted publicly; see **[SECURITY.md](SECURITY.md)** instead.
+**Idioma / Language:** [Español](#español) · [English](#english)
 
 ---
 
-<a id="espanol"></a>
 ## Español
 
-### Proyecto personal realizado como hobby
+### Naturaleza del proyecto
 
-SYNCORE es un proyecto personal creado como hobby y desarrollado en el tiempo libre de su autor. **No está desarrollado por un programador profesional ni por una empresa de software.**
+**SYNCORE es un proyecto personal de afición**, desarrollado en el tiempo libre de su autor. No está desarrollado por una empresa de software ni se presenta como producto de un programador profesional. Su desarrollo utiliza herramientas de **inteligencia artificial y vibe coding** para crear, modificar, documentar y probar partes del software.
 
-### Desarrollo asistido por inteligencia artificial
+### Riesgos y copias de seguridad
 
-El proyecto se desarrolla mediante **vibe coding asistido por inteligencia artificial**. Se utilizan herramientas de IA para generar, modificar, revisar, documentar y probar partes del software.
+La revisión humana, las pruebas automatizadas y la comprobación manual ayudan a detectar fallos, pero **no garantizan la ausencia de errores**. Algunas funciones interactúan con carpetas de partidas, archivos personales, enlaces NTFS, configuración de Windows, Google Drive, juegos y aplicaciones externas. Un fallo, una interrupción, un conflicto o una incompatibilidad pueden causar un comportamiento incorrecto o pérdida de datos.
 
-Los sistemas de IA pueden cometer errores. La revisión, las pruebas automatizadas y las pruebas manuales reducen el riesgo, pero no pueden garantizar que la aplicación esté completamente libre de fallos, situaciones inseguras o comportamientos no previstos.
-
-### Seguridad y datos
-
-SYNCORE se diseña con la intención de proteger las partidas guardadas y evitar pérdidas de información. Sin embargo, dependiendo de las funciones activadas, puede interactuar con partidas guardadas, carpetas locales, enlaces NTFS, configuración de la aplicación, Google Drive y otros componentes de Windows.
-
-Por tanto, errores, incompatibilidades, operaciones interrumpidas, fallos de servicios externos o situaciones inesperadas del sistema pueden provocar comportamientos incorrectos o pérdida de datos.
-
-Antes de depender de la aplicación, se recomienda mantener copias de seguridad independientes de las partidas y otros datos importantes. Siempre que sea posible, es aconsejable probar nuevas versiones primero con datos no críticos.
+**Conserva copias independientes de las partidas y datos importantes.** Prueba las versiones nuevas con datos no críticos cuando sea posible y revisa cada confirmación de restauración o sustitución de archivos.
 
 ### Servicios de terceros
 
-Algunas funciones pueden depender de servicios o software no controlados por IMC93Labs, incluidos Google Drive, componentes de Windows, juegos, launchers y otras aplicaciones de terceros. Su disponibilidad, comportamiento y compatibilidad pueden cambiar de forma independiente a SYNCORE.
+Google Drive, Windows, los juegos, los lanzadores y otros componentes externos tienen condiciones y compatibilidades que pueden cambiar sin intervención de IMC93Labs.
 
-### Sin garantías
+### Ausencia de garantías
 
-El software se proporciona **tal cual y sin garantías**, en la medida permitida por la legislación aplicable. No se garantiza que esté libre de errores, que funcione de manera ininterrumpida, que sea compatible con todos los juegos o equipos ni que sea adecuado para una finalidad concreta.
+El software se ofrece **tal cual y sin garantías**, en la medida permitida por la legislación aplicable. No se promete funcionamiento sin fallos, compatibilidad universal, disponibilidad constante ni idoneidad para un fin concreto. El uso es voluntario y cada usuario decide si lo instala y cómo protege sus propios datos.
 
-El uso de SYNCORE es voluntario. Cada usuario es responsable de decidir si desea ejecutarlo, de mantener copias de seguridad adecuadas y de las consecuencias derivadas de su uso sobre su propio sistema y sus datos.
+Este aviso **no pretende excluir derechos o responsabilidades** que no puedan excluirse o limitarse legalmente.
 
-Nada de este aviso pretende excluir o limitar derechos o responsabilidades que legalmente no puedan excluirse o limitarse conforme a la legislación aplicable.
-
-### Informar de problemas
-
-Los errores reproducibles pueden comunicarse mediante **Issues**. Los problemas de seguridad, credenciales, tokens o datos privados **no deben publicarse de forma pública**; consulta **[SECURITY.md](SECURITY.md)**.
+Para errores reproducibles utiliza [Soporte](SUPPORT.md); para problemas delicados sigue [Seguridad](SECURITY.md) y evita publicar detalles privados.
 
 ---
 
-**SYNCORE (formerly Game Sync Hub) — IMC93Labs**
+## English
+
+### About the project
+
+**SYNCORE is a personal hobby project**, developed in the author's free time. It is not presented as the work of a professional software company or professional software developer. Development uses **AI assistance and vibe coding** to help build, modify, document and test parts of the software.
+
+### Risks and backups
+
+Human review, automated tests and manual checks reduce risks but **cannot guarantee error-free software**. Features may interact with game-save folders, personal files, NTFS links, Windows settings, Google Drive, games and external applications. Bugs, interrupted operations, conflicts or incompatibilities can cause incorrect behaviour or data loss.
+
+**Keep independent backups of valuable saves and data.** Where possible, test new releases with non-critical data and review confirmations before restoring or replacing files.
+
+### Third-party services
+
+Google Drive, Windows, games, launchers and other third-party components have independent availability and compatibility requirements that may change without IMC93Labs' control.
+
+### No warranty
+
+The software is provided **as-is and without warranties**, to the extent permitted by applicable law. Error-free operation, universal compatibility, uninterrupted availability and suitability for a particular purpose are not guaranteed. Use is voluntary, and each user decides whether to install it and how to protect their own data.
+
+Nothing in this notice is intended to exclude or limit **rights or responsibilities that cannot legally be excluded or limited**.
+
+For reproducible bugs use [Support](SUPPORT.md); for sensitive matters consult [Security](SECURITY.md) and avoid posting private details.
+
+---
+
+<sub>SYNCORE Games · IMC93Labs · [Volver al inicio / Back home](README.md)</sub>

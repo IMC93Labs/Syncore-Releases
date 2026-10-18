@@ -1,49 +1,51 @@
-# Contributing / Contribuir
+# 🤝 Colaborar / Contributing
 
-> **Current stable release / Versión estable actual:** [SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.1). Game Sync Hub v1.1.0 remains available in the historical release archive. / Game Sync Hub v1.1.0 se conserva en el historial de versiones.
+> **SYNCORE Games** · [Inicio / Home](README.md) · [Descargar / Download](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Guía / Guide](docs/guides/quick-start.md) · [Funciones / Features](docs/guides/features.md) · [Soporte / Support](SUPPORT.md)
 
-[English](#english) · [Español](#espanol)
-
----
-
-<a id="english"></a>
-## English
-
-This repository is primarily for **official releases, public documentation and user support**. The SYNCORE source code is not published here.
-
-The most useful ways to contribute are:
-
-- report reproducible bugs through Issues;
-- suggest improvements through Issues;
-- help other users in Discussions;
-- point out mistakes or unclear wording in the public documentation.
-
-Documentation pull requests may be reviewed, but there is no guarantee that external pull requests will be accepted or merged.
-
-Please keep reports respectful, concise and free of credentials, tokens, personal data or copyrighted save files that you do not have permission to share.
-
-For security-sensitive matters, follow **[SECURITY.md](SECURITY.md)** instead of opening a public Issue.
+**Idioma / Language:** [Español](#español) · [English](#english)
 
 ---
 
-<a id="espanol"></a>
 ## Español
 
-Este repositorio está destinado principalmente a **versiones oficiales, documentación pública y soporte a usuarios**. El código fuente de SYNCORE no se publica aquí.
+### ¿Cómo puedes ayudar?
 
-Las formas más útiles de colaborar son:
+Este repositorio contiene **versiones oficiales, documentación pública y soporte** de SYNCORE. El **código fuente de la aplicación no está publicado aquí**.
 
-- informar de errores reproducibles mediante Issues;
-- proponer mejoras mediante Issues;
-- ayudar a otros usuarios en Discussions;
-- señalar errores o textos poco claros en la documentación pública.
+Puedes ayudar de estas formas:
 
-Las Pull Requests de documentación pueden revisarse, pero no se garantiza que las contribuciones externas sean aceptadas o incorporadas.
+- Reproducir y comunicar errores mediante [Issues](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose).
+- Proponer mejoras explicando la necesidad que resolverían.
+- Compartir soluciones y responder preguntas en [Discussions](https://github.com/IMC93Labs/Syncore-Releases/discussions).
+- Detectar enlaces rotos, errores de traducción y explicaciones poco claras.
 
-Mantén los reportes respetuosos, claros y libres de credenciales, tokens, datos personales o partidas protegidas por derechos que no tengas permiso para compartir.
+### Documentación y traducciones
 
-Para asuntos relacionados con seguridad, sigue **[SECURITY.md](SECURITY.md)** en lugar de abrir un Issue público.
+Usamos el mismo criterio en todas las guías: **español primero, inglés después**, secciones completas y enlaces equivalentes. Los términos de la aplicación (`SYNCORE`, `Modo PC`, `Modo Consola`, `Control Center`, `PresentMon`) deben representar funciones reales.
+
+Las Pull Requests de documentación pueden revisarse, pero no está garantizada su aceptación. No publiques secretos, datos de otros usuarios, partidas privadas o materiales de terceros sin permiso. Para incidentes sensibles sigue [Seguridad](SECURITY.md).
 
 ---
 
-**SYNCORE (formerly Game Sync Hub) — IMC93Labs**
+## English
+
+### How can you help?
+
+This repository hosts **official releases, public documentation and support** for SYNCORE. The **application source code is not published here**.
+
+You can contribute by:
+
+- Reproducing and reporting bugs through [Issues](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose).
+- Suggesting improvements with clear user needs.
+- Helping others through [Discussions](https://github.com/IMC93Labs/Syncore-Releases/discussions).
+- Flagging broken links, translation mistakes and unclear documentation.
+
+### Documentation and translations
+
+Public guides follow the same format: **Spanish first, English second**, complete parallel sections and equivalent links. Product terms (`SYNCORE`, `PC Mode`, `Console Mode`, `Control Center`, `PresentMon`) must describe implemented functionality.
+
+Documentation pull requests may be reviewed but are not guaranteed to be accepted. Do not share secrets, other people's information, private saves or unauthorised third-party content. Follow the [Security policy](SECURITY.md) for sensitive reports.
+
+---
+
+<sub>SYNCORE Games · IMC93Labs · [Volver al inicio / Back home](README.md)</sub>
