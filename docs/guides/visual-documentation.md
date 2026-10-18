@@ -8,21 +8,41 @@
 
 ## Español
 
-### SYNCORE 2.2.1: imágenes auténticas
+### SYNCORE 2.2.1: capturas y demostraciones
 
-La presentación pública se basará en **capturas reales y revisadas** de SYNCORE, procedentes de la demostración de la aplicación. Se priorizan estas pantallas:
+Estas imágenes muestran la aplicación real. Las capturas se han revisado y anonimizado para su publicación.
 
-| Pantalla | Lo que enseña |
-|---|---|
-| **Biblioteca · Modo PC** | Juegos, carátulas, acciones, filtros y acceso al Modo Consola. |
-| **Google Drive** | Flujo de conexión y recuperación **sin mostrar cuentas personales**. |
-| **Modo Consola** | Navegación real con mando y biblioteca a pantalla completa. |
-| **Control Center** | Apartados de rendimiento/OSD, audio y ajustes disponibles. |
-| **Ajustes** | Opciones del programa y su versión estable. |
+#### Biblioteca · Modo PC
 
-**Estado de esta guía:** las capturas actuales ya se han identificado en la grabación, pero **no están publicadas todavía en este repositorio**. No se sustituirán por capturas inventadas. Los archivos existentes en [`docs/media/`](../media/) corresponden al antiguo Game Sync Hub 1.x y se conservan **solo como archivo histórico**.
+![Biblioteca de juegos de SYNCORE en Modo PC](../media/current/pc-library.jpg)
 
-Los vídeos y GIF ilustrativos pueden usar una mascota caricaturesca, pero se identificarán como **material promocional**, nunca como demostración literal de una función ni como fotografía de la interfaz actual. Antes de publicar cualquier captura se eliminarán correos, nombres de equipo, rutas, identificadores y contenido del escritorio.
+La biblioteca reúne carátulas, búsqueda, filtros, favoritos y acceso al Modo Consola.
+
+#### Google Drive y ajustes
+
+![Ajustes de SYNCORE y demostración de Google Drive con datos anonimizados](../media/current/google-drive-demo.jpg)
+
+La cuenta y el equipo de la imagen son datos de demostración; no representan una cuenta personal.
+
+#### Modo Consola
+
+![Biblioteca real de SYNCORE en Modo Consola](../media/current/console-mode.jpg)
+
+#### Control Center
+
+![Control Center real de SYNCORE abierto sobre Modo Consola](../media/current/control-center.jpg)
+
+#### Ajustes y OSD
+
+![Ajustes de SYNCORE con opciones de OSD](../media/current/settings-osd.jpg)
+
+#### Demostración animada de la aplicación
+
+![Animación real de Modo Consola y Control Center](../media/current/console-control-center-real.gif)
+
+La animación procede de una grabación de SYNCORE. El GIF promocional del mando que aparece al inicio del README es una ilustración conceptual, no una captura literal de la aplicación. [Ver el vídeo promocional con música](../media/current/SYNCORE_Games_profesor_mando_sin_pata.mp4).
+
+**Archivo histórico:** las capturas y GIF que permanecen directamente en [`docs/media/`](../media/) corresponden a Game Sync Hub 1.x; no representan SYNCORE 2.2.1. Los medios actuales de SYNCORE están en [`docs/media/current/`](../media/current/).
 
 [Funciones reales y sus límites](features.md) · [Primeros pasos](quick-start.md)
 
@@ -30,21 +50,41 @@ Los vídeos y GIF ilustrativos pueden usar una mascota caricaturesca, pero se id
 
 ## English
 
-### SYNCORE 2.2.1: genuine application imagery
+### SYNCORE 2.2.1: screenshots and demonstrations
 
-Public materials will use **genuine, privacy-reviewed screenshots** taken from the application demonstration. The priority views are:
+These images show the actual application. The screenshots were reviewed and anonymized for publication.
 
-| Screen | What it demonstrates |
-|---|---|
-| **Library · PC Mode** | Games, cover art, actions, filters and Console Mode entry point. |
-| **Google Drive** | Connection and recovery flow **without showing personal accounts**. |
-| **Console Mode** | Actual gamepad navigation and full-screen library. |
-| **Control Center** | Performance/OSD, audio and available settings. |
-| **Settings** | Application options and current stable version. |
+#### Library · PC Mode
 
-**Current status:** the relevant scenes have been identified in the recording, but their reviewed screenshots **are not yet published in this repository**. Fabricated UI screenshots will not be used. Existing [`docs/media/`](../media/) files are historical **Game Sync Hub 1.x** images and are preserved strictly as an archive.
+![SYNCORE game library in PC Mode](../media/current/pc-library.jpg)
 
-Illustrated promotional videos or GIFs featuring a cartoon controller will be clearly labelled as **promotional artwork**, not literal proof of a function or a screenshot of the current application. Email addresses, machine names, paths, identifiers and desktop content must be removed before any public upload.
+The library brings together cover art, search, filters, favourites and entry to Console Mode.
+
+#### Google Drive and settings
+
+![SYNCORE settings and an anonymized Google Drive demonstration](../media/current/google-drive-demo.jpg)
+
+The account and computer shown are demonstration data; they do not represent a personal account.
+
+#### Console Mode
+
+![Actual SYNCORE library in Console Mode](../media/current/console-mode.jpg)
+
+#### Control Center
+
+![Actual SYNCORE Control Center open over Console Mode](../media/current/control-center.jpg)
+
+#### Settings and OSD
+
+![SYNCORE settings with OSD options](../media/current/settings-osd.jpg)
+
+#### Animated application demonstration
+
+![Genuine animation of Console Mode and Control Center](../media/current/console-control-center-real.gif)
+
+This animation comes from a SYNCORE recording. The controller GIF at the top of the README is conceptual promotional artwork, not a literal screenshot of the application. [Watch the music-backed promo video](../media/current/SYNCORE_Games_profesor_mando_sin_pata.mp4).
+
+**Historical archive:** screenshots and GIFs kept directly in [`docs/media/`](../media/) belong to Game Sync Hub 1.x; they do not depict SYNCORE 2.2.1. Current SYNCORE media is stored in [`docs/media/current/`](../media/current/).
 
 [Real features and limitations](features.md) · [Quick start](quick-start.md)
 

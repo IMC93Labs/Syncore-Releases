@@ -8,6 +8,20 @@
 
 [**⬇️ DESCARGAR ÚLTIMA VERSIÓN ESTABLE / DOWNLOAD LATEST**](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Funciones / Features](docs/guides/features.md) · [Guía visual / Visual guide](docs/guides/visual-documentation.md) · [Ayuda / Support](SUPPORT.md)
 
+### 🎬 Descubre SYNCORE Games / Discover SYNCORE Games
+
+[![Vídeo promocional ilustrado de SYNCORE Games / Illustrated SYNCORE Games promo](docs/media/current/controller-teacher-promo.gif)](docs/media/current/SYNCORE_Games_profesor_mando_sin_pata.mp4)
+
+[**▶ Ver el vídeo promocional con música / Watch the promo video**](docs/media/current/SYNCORE_Games_profesor_mando_sin_pata.mp4)
+
+*Ilustración promocional del mando profesor; la interfaz representada es conceptual, no una captura literal de SYNCORE. / Illustrated controller-teacher promo; depicted UI is conceptual, not an actual screenshot.*
+
+### 🕹️ La aplicación real / The real application
+
+![Modo Consola y Control Center reales / Genuine Console Mode and Control Center](docs/media/current/console-control-center-real.gif)
+
+[**🖼️ Ver capturas reales / See genuine screenshots**](docs/guides/visual-documentation.md)
+
 **Idioma / Language:** [Español](#español) · [English](#english)
 
 ---
