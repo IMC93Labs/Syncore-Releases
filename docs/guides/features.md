@@ -1,55 +1,30 @@
-# SYNCORE v2.0.0 — Features / Funciones
+# SYNCORE Games — SYNCORE 2.2.1
 
-**Public stable release / Versión estable pública:** [SYNCORE v2.0.0](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.0.0) · [Download installer / Descargar instalador](https://github.com/IMC93Labs/Syncore-Releases/releases/download/v2.0.0/SynCore-Setup-v2.0.0.exe)
+[Current stable / Versión estable actual](https://github.com/IMC93Labs/Syncore-Releases/releases/latest)
 
-[English](#english) · [Español](#espanol)
+| Area / Área | Available / Disponible | Limits / Límites |
+|---|---|---|
+| PC library / Biblioteca | Grid/list, cover sizing, search/filters, actions, shared favorites / Cuadrícula/lista, carátulas completas, filtros y acciones | Games/artwork must exist; no invented statistics / Datos reales |
+| Console / Consola | Controller navigation, Guide/Control Center, compact settings, confirm/cancel dropdowns / Navegación con mando y ajustes compactos | Add-game entry reserved; no controller file browser yet / Añadir juego reservado |
+| Saves / Partidas | Local verified backups, protected history, version selection, transactional restore/recovery / Historial, elección y recuperación protegidos | Ambiguous branches require choice; advanced progress is not inferred from date / Divergencias requieren elección |
+| Google Drive | Verified synchronization, retries, safe repair and offline pending work / Sincronización verificada y recuperación segura | User OAuth required; network/auth/conflicts may require intervention / Requiere OAuth propio |
+| Own / PresentMon | Observed FPS/frametime and available CPU/GPU/RAM/VRAM; live hardware in Control Center without game / Sensores sin juego | Frames need active compatible renderer and ETW permission; Present events are not proof of final composition / FPS requieren renderer y ETW |
+| CPU temperature / Temperatura CPU | CPU Package/equivalent through existing broker, supported sensors and optional signed PawnIO / Lectura real mediante broker existente | Explicit Setup consent, hardware/anti-cheat dependent; unavailable is — / Depende de hardware y políticas |
+| Refresh rate / Hz | Supported monitor modes, confirmation, restoration and recovery / Frecuencias compatibles, confirmación y restauración | No unsupported modes or global permanent GPU profile changes / Sin modos incompatibles |
+| Updates / Actualizaciones | Direct stable upgrade, download integrity, explicit install, deferred own notices / Actualización directa con verificación y confirmación | Installer unsigned; physical cross-PC scenarios still need validation / Sin firma; validación externa pendiente |
+| DLSS5 | Existing prepared-game integrations; DX11 and Native DX12 internal evaluation evidence / Integración existente en juegos preparados | Experimental/limited compatibility; Native final visual composition unconfirmed; no anti-cheat claim / Composición final Native no demostrada |
 
----
+## Not available / No disponible
 
-<a id="english"></a>
-## English
+- Dynamic FPS limiting / Limitador dinámico de FPS: disabled, no safe universal backend shipped.
+- Universal DX12/Vulkan/OpenGL compatibility or universal anti-cheat compatibility / Compatibilidad universal no demostrada.
+- Some Windows Show desktop routes / Algunos accesos de Mostrar escritorio.
+- Controller-adapted Add game wizard / Asistente Añadir juego adaptado al mando.
 
-### Library, artwork and launch
-- Desktop library for installed and remote-library games; configure games on each PC independently.
-- Game launch, metadata, cover and background selection, and controller-friendly Console Mode.
-- Optional controller virtualization; the installer includes HidHide setup and HIDMaestro preparation.
+## Installation permissions / Permisos
 
-### Save protection and recovery
-- Choose a game's save folder and protect it via a verified local managed copy and NTFS junction.
-- Compare local and Google Drive save versions before selecting which one to activate or preserve.
-- Google Drive `Current`, `Previous`, recoverable history, imports and manual recovery.
-- Recover on another PC using a device-specific profile. Journaled operations can resume following interruptions.
-- Conservative handling of existing saves and backups; technical backups are removed only after they are verified redundant.
-- Stable releases distributed through this repository.
+SYNCORE runs as the normal user. Setup has explicit optional tasks for controller support, CPU hardware access and ETW. ETW uses Performance Log Users (S-1-5-32-559), a persistent reversible diagnostic permission for the local user and their apps; it is not an administrator grant. Sign-out/sign-in may be needed. Existing memberships are preserved. CPU driver/provider support is not guaranteed on every PC.
 
-### Requirements and boundaries
-Windows 10/11 x64; a **local NTFS volume** for save junctions. Cloud functionality requires user-provided Google Drive OAuth Desktop App configuration. Keep independent backups of important saves. The installer is not Authenticode-signed; verify its [published SHA-256](../../README.md#download-and-install).
+SYNCORE se ejecuta como usuario normal. Las tareas opcionales del instalador explican los permisos y dependen de consentimiento; no se desactivan protecciones ni se elevan juegos de forma indiscriminada. La retirada ETW se hace mediante el script Undo con su journal; no se retiran permisos previos.
 
-The final installer passed automated checks and an isolated launch test; a physical installation on clean Windows has not yet been recorded. Hardware-specific or game-specific behaviour may vary. For details, see the [v2.0.0 release notes](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.0.0).
-
-Previous [Game Sync Hub v1.1.0 notes](../releases/v1.1.0.md) are historical documentation, not the current stable release.
-
----
-
-<a id="espanol"></a>
-## Español
-
-### Biblioteca, imágenes y ejecución
-- Biblioteca de juegos instalados y recuperados de Drive; configuración independiente por equipo.
-- Lanzamiento de juegos, metadatos, elección de portadas y fondos y Modo consola con mando.
-- Virtualización opcional de mandos; el instalador incluye la preparación de HidHide y HIDMaestro.
-
-### Protección y recuperación de partidas
-- Selecciona la carpeta de partidas y protégela mediante una copia local gestionada y verificada con junction NTFS.
-- Compara partidas locales y de Google Drive antes de decidir cuál activar o conservar.
-- `Current`, `Previous`, historial recuperable, importaciones y recuperación manual en Google Drive.
-- Recuperación en otro PC con perfil propio. Operaciones registradas en journals y reanudables tras interrupciones.
-- Tratamiento conservador de partidas y copias: los respaldos técnicos se retiran solo tras comprobar que son redundantes.
-- Versiones estables distribuidas desde este repositorio.
-
-### Requisitos y límites
-Windows 10/11 x64; **volumen NTFS local** para los junctions. Google Drive requiere la configuración OAuth Desktop App aportada por el usuario. Conserva copias independientes de las partidas importantes. El instalador no está firmado con Authenticode; verifica su [SHA-256 publicado](../../README.md#descarga-e-instalación).
-
-El instalador final superó pruebas automatizadas y un arranque aislado; todavía no consta una instalación física en Windows limpio. El funcionamiento puede variar según el equipo y el juego. Consulta las [notas de v2.0.0](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.0.0).
-
-Las [notas de Game Sync Hub v1.1.0](../releases/v1.1.0.md) se conservan como documentación histórica y no representan la versión estable actual.
+Normal uninstall keeps user data. Historical documentation/screenshots remain archived and are not evidence that an unavailable feature is implemented. / La desinstalación normal conserva datos; la documentación histórica no anuncia funciones pendientes como operativas.

@@ -1,6 +1,8 @@
+> Historical media / Material histórico. Current SYNCORE Games release / Versión actual: [SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/latest). The captures below are not the current UI / Las capturas no corresponden a la interfaz actual.
+
 # SYNCORE — Visual guide / Guía visual
 
-**SYNCORE v2.0.0 is published / SYNCORE v2.0.0 ya está publicado.**
+**SYNCORE 2.2.1 is current / SYNCORE 2.2.1 es la versión actual.**
 
 The images and GIFs currently in `docs/media/` are **historical Game Sync Hub 1.x media**. They are not SYNCORE 2.0 screenshots. A new, privacy-reviewed visual walkthrough will be added without exposing accounts, paths, tokens or real save data.
 

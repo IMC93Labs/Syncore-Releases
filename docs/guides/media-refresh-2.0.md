@@ -1,6 +1,8 @@
+> Historical media / Material histórico. Current SYNCORE Games release / Versión actual: [SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/latest). The captures below are not the current UI / Las capturas no corresponden a la interfaz actual.
+
 # SYNCORE 2.0 — media refresh checklist / Renovación multimedia
 
-**Status / Estado:** SYNCORE v2.0.0 has been published; the new screenshots and GIFs are still pending a privacy-reviewed capture. / SYNCORE v2.0.0 ya está publicado; siguen pendientes las capturas y GIF nuevos revisados para proteger la privacidad.
+**Status / Estado:** SYNCORE 2.2.1 has been published; the new screenshots and GIFs are still pending a privacy-reviewed capture. / SYNCORE 2.2.1 ya está publicado; siguen pendientes las capturas y GIF nuevos revisados para proteger la privacidad.
 
 - [ ] Official SYNCORE symbol and wordmark (use approved files; do not recreate or alter the logo).
 - [ ] Windows Library showing installed/not installed and save-protection states.

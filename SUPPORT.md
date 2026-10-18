@@ -1,6 +1,6 @@
 # Support / Soporte
 
-> **Current stable release / Versión estable actual:** [SYNCORE v2.0.0](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.0.0). Game Sync Hub v1.1.0 remains available in the historical release archive. / Game Sync Hub v1.1.0 se conserva en el historial de versiones.
+> **Current stable release / Versión estable actual:** [SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.1). Game Sync Hub v1.1.0 remains available in the historical release archive. / Game Sync Hub v1.1.0 se conserva en el historial de versiones.
 
 [English](#english) · [Español](#espanol)
 
