@@ -1,30 +1,75 @@
-# SYNCORE Games — SYNCORE 2.2.1
+# 🧩 Funciones y compatibilidad / Features & compatibility
 
-[Current stable / Versión estable actual](https://github.com/IMC93Labs/Syncore-Releases/releases/latest)
+> **SYNCORE Games** · [Inicio / Home](../../README.md) · [Descarga / Download](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Primeros pasos / Quick start](quick-start.md) · [Funciones / Features](features.md) · [Ayuda / Support](../../SUPPORT.md)
 
-| Area / Área | Available / Disponible | Limits / Límites |
+**Idioma / Language:** [Español](#español) · [English](#english)
+
+---
+
+## Español
+
+SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponible**, **opcional**, **experimental** y **pendiente** no significan lo mismo: aquí se indican claramente.
+
+| Área | Estado en la versión 2.2.1 | Qué debes saber |
 |---|---|---|
-| PC library / Biblioteca | Grid/list, cover sizing, search/filters, actions, shared favorites / Cuadrícula/lista, carátulas completas, filtros y acciones | Games/artwork must exist; no invented statistics / Datos reales |
-| Console / Consola | Controller navigation, Guide/Control Center, compact settings, confirm/cancel dropdowns / Navegación con mando y ajustes compactos | Add-game entry reserved; no controller file browser yet / Añadir juego reservado |
-| Saves / Partidas | Local verified backups, protected history, version selection, transactional restore/recovery / Historial, elección y recuperación protegidos | Ambiguous branches require choice; advanced progress is not inferred from date / Divergencias requieren elección |
-| Google Drive | Verified synchronization, retries, safe repair and offline pending work / Sincronización verificada y recuperación segura | User OAuth required; network/auth/conflicts may require intervention / Requiere OAuth propio |
-| Own / PresentMon | Observed FPS/frametime and available CPU/GPU/RAM/VRAM; live hardware in Control Center without game / Sensores sin juego | Frames need active compatible renderer and ETW permission; Present events are not proof of final composition / FPS requieren renderer y ETW |
-| CPU temperature / Temperatura CPU | CPU Package/equivalent through existing broker, supported sensors and optional signed PawnIO / Lectura real mediante broker existente | Explicit Setup consent, hardware/anti-cheat dependent; unavailable is — / Depende de hardware y políticas |
-| Refresh rate / Hz | Supported monitor modes, confirmation, restoration and recovery / Frecuencias compatibles, confirmación y restauración | No unsupported modes or global permanent GPU profile changes / Sin modos incompatibles |
-| Updates / Actualizaciones | Direct stable upgrade, download integrity, explicit install, deferred own notices / Actualización directa con verificación y confirmación | Installer unsigned; physical cross-PC scenarios still need validation / Sin firma; validación externa pendiente |
-| DLSS5 | Existing prepared-game integrations; DX11 and Native DX12 internal evaluation evidence / Integración existente en juegos preparados | Experimental/limited compatibility; Native final visual composition unconfirmed; no anti-cheat claim / Composición final Native no demostrada |
+| 🎮 Biblioteca / Modo PC | **Disponible** | Cuadrícula y lista, búsqueda, filtros, favoritos, carátulas, fondos y opciones de juegos. |
+| 🕹️ Modo Consola | **Disponible** | Navegación con mando, selección de juegos y menús, Control Center y ajustes adaptados. |
+| 💾 Protección de partidas | **Disponible con configuración** | Copias verificadas, historial y recuperación controlada. Necesita identificar bien las carpetas y NTFS cuando se utilizan junctions. |
+| ☁️ Google Drive | **Opcional** | Sincronización y recuperación verificadas, reintentos y conflictos que requieren decisión. Requiere tu propia configuración OAuth, conectividad y autorización. |
+| 📊 PresentMon / OSD | **Condicionado** | FPS y frametime en juegos/renderizadores compatibles y con permisos necesarios. Mide eventos Present, no certifica fotogramas finales generados. |
+| 🌡️ Telemetría | **Condicionado** | Carga de CPU/GPU, temperaturas y RAM/VRAM si hay sensores/lecturas válidas. Control Center puede mostrar lecturas sin juego. |
+| 🔊 Audio y ajustes de rendimiento | **Disponible según función/equipo** | Control Center muestra ajustes compatibles y evita afirmar capacidades no disponibles. |
+| 🖥️ Frecuencia de pantalla | **Disponible según monitor** | Selección entre modos admitidos, confirmación y restauración posterior. |
+| 🔄 Actualizador | **Disponible** | Descargas verificadas y consentimiento explícito antes de instalar versiones compatibles. |
+| 🧪 DLSS5 / ReShade | **Experimental** | Integraciones existentes para juegos preparados; composición visual final Native DX12 y compatibilidad general no demostradas. Evita antitrampas. |
+| ⏳ Añadir juegos con mando | **Pendiente** | La entrada de Modo Consola está reservada; el asistente completo se realiza en Modo PC. |
+| ⏳ Limitador dinámico de FPS | **No disponible** | El selector continúa deshabilitado. |
 
-## Not available / No disponible
+### Consideraciones técnicas
 
-- Dynamic FPS limiting / Limitador dinámico de FPS: disabled, no safe universal backend shipped.
-- Universal DX12/Vulkan/OpenGL compatibility or universal anti-cheat compatibility / Compatibilidad universal no demostrada.
-- Some Windows Show desktop routes / Algunos accesos de Mostrar escritorio.
-- Controller-adapted Add game wizard / Asistente Añadir juego adaptado al mando.
+- Windows 10/11 x64. Volumen NTFS cuando se emplean junctions para proteger partidas.
+- El instalador incluye componentes y dependencias; las opciones de sensores CPU y permisos ETW se presentan **por separado y requieren consentimiento**. ETW puede necesitar cerrar sesión. No se eleva SYNCORE durante su uso habitual.
+- El instalador **no está firmado digitalmente**. Verifica origen y SHA-256; no desactives las defensas de Windows.
+- La disponibilidad de sensores, drivers, videojuegos y antitrampas no se puede garantizar para todos los equipos.
+- Conserva siempre **respaldos independientes** de las partidas. Una fecha posterior de un archivo no demuestra mayor progreso.
+- Persisten algunas rutas pendientes de **Mostrar escritorio**; no se anuncian como totalmente resueltas.
+- Las pruebas automatizadas no sustituyen una validación física completa de instalación, actualización y rollback en otros equipos.
 
-## Installation permissions / Permisos
+[Cómo empezar](quick-start.md) · [Guía visual](visual-documentation.md) · [Notas oficiales](https://github.com/IMC93Labs/Syncore-Releases/releases/latest)
 
-SYNCORE runs as the normal user. Setup has explicit optional tasks for controller support, CPU hardware access and ETW. ETW uses Performance Log Users (S-1-5-32-559), a persistent reversible diagnostic permission for the local user and their apps; it is not an administrator grant. Sign-out/sign-in may be needed. Existing memberships are preserved. CPU driver/provider support is not guaranteed on every PC.
+---
 
-SYNCORE se ejecuta como usuario normal. Las tareas opcionales del instalador explican los permisos y dependen de consentimiento; no se desactivan protecciones ni se elevan juegos de forma indiscriminada. La retirada ETW se hace mediante el script Undo con su journal; no se retiran permisos previos.
+## English
 
-Normal uninstall keeps user data. Historical documentation/screenshots remain archived and are not evidence that an unavailable feature is implemented. / La desinstalación normal conserva datos; la documentación histórica no anuncia funciones pendientes como operativas.
+SYNCORE brings several tools into one Windows application. **Available**, **optional**, **experimental**, and **not yet available** are different statuses and should never be conflated.
+
+| Feature | Status in 2.2.1 | What to expect |
+|---|---|---|
+| 🎮 Game library / PC Mode | **Available** | Grid/list, search, filters, favourites, artwork and game options. |
+| 🕹️ Console Mode | **Available** | Controller navigation, game selection, menus, Control Center and adapted settings. |
+| 💾 Save protection | **Available with setup** | Verified backups, history and controlled recovery. Correct save paths and NTFS for junctions are essential. |
+| ☁️ Google Drive | **Optional** | Verified save synchronisation and recovery, retries and conflict decisions. Requires your own OAuth setup, network and authorisation. |
+| 📊 PresentMon / OSD | **Compatibility-dependent** | FPS/frametime for supported games/renderers with required permissions. Present events are not proof of final displayed/generated frames. |
+| 🌡️ Hardware telemetry | **Compatibility-dependent** | CPU/GPU load, temperatures and RAM/VRAM when reliable sensors are available. Control Center can read hardware without a game. |
+| 🔊 Audio & performance controls | **Feature/system-dependent** | Control Center exposes supported settings without claiming unavailable capabilities. |
+| 🖥️ Refresh-rate control | **Display-dependent** | Supported modes with confirmation and subsequent restoration. |
+| 🔄 Built-in updater | **Available** | Integrity-checked updates with explicit installation approval. |
+| 🧪 DLSS5 / ReShade | **Experimental** | Existing prepared-game integrations; Native DX12 final composition and broad compatibility unproven. Avoid anti-cheat-protected games. |
+| ⏳ Controller-native Add game | **Pending** | Console entry reserved; complete game setup is handled from PC Mode. |
+| ⏳ Dynamic FPS limiter | **Unavailable** | Selector remains disabled. |
+
+### Technical notes
+
+- Windows 10/11 x64; NTFS is required wherever junction-based save protection is used.
+- Setup bundles components and presents **separate consent** for CPU sensor and ETW options. ETW may require sign-out/sign-in. SYNCORE does not run elevated during normal use.
+- The installer **is not digitally signed**. Verify the official source and SHA-256; do not disable Windows security.
+- Sensor, driver, game and anti-cheat compatibility varies by system.
+- Keep **independent backups** of important saves. A newer timestamp does not imply greater progress.
+- Some **Show desktop** paths remain unresolved; no blanket compatibility claim is made.
+- Automated tests do not replace cross-device physical install, upgrade and rollback testing.
+
+[Quick start](quick-start.md) · [Visual guide](visual-documentation.md) · [Release notes](https://github.com/IMC93Labs/Syncore-Releases/releases/latest)
+
+---
+
+<sub>SYNCORE Games · IMC93Labs · [Inicio / Home](../../README.md)</sub>

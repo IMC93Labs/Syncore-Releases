@@ -1,19 +1,47 @@
-> Historical media / Material histórico. Current SYNCORE Games release / Versión actual: [SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/latest). The captures below are not the current UI / Las capturas no corresponden a la interfaz actual.
+# 📷 Material visual / Media status
 
-# SYNCORE 2.0 — media refresh checklist / Renovación multimedia
+> **SYNCORE Games** · [Inicio / Home](../../README.md) · [Descarga / Download](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Primeros pasos / Quick start](quick-start.md) · [Funciones / Features](features.md) · [Ayuda / Support](../../SUPPORT.md)
 
-**Status / Estado:** SYNCORE 2.2.1 has been published; the new screenshots and GIFs are still pending a privacy-reviewed capture. / SYNCORE 2.2.1 ya está publicado; siguen pendientes las capturas y GIF nuevos revisados para proteger la privacidad.
+**Idioma / Language:** [Español](#español) · [English](#english)
 
-- [ ] Official SYNCORE symbol and wordmark (use approved files; do not recreate or alter the logo).
-- [ ] Windows Library showing installed/not installed and save-protection states.
-- [ ] Configure game wizard, candidate selection, cover and background preview.
-- [ ] Console Mode, controller settings and Control Center with generic user data.
-- [ ] Guided Google Drive conflict choice and verified second-PC save recovery.
-- [ ] Recovery and updates views with no personal paths or real save files.
-- [ ] Any game overlay or optional third-party-dependent feature only after a representative capture has been validated.
-- [ ] Updated GIFs: game setup and Console Mode; no private accounts, stale design or user identifiers.
-- [ ] Replace historical references in README and guides only with genuine v2.0 media.
+---
 
-Old images in `docs/media/` belong to **Game Sync Hub 1.x**. They are retained only for historical reference and must not be presented as SYNCORE 2.0.
+## Español
 
-No fake screenshots, fabricated test counts, personal save files or credentials. / No inventar capturas, pruebas ni publicar partidas o credenciales personales.
+### Qué mostrar y qué evitar
+
+El material auténtico destinado a usuarios procede de la grabación de **SYNCORE 2.2.1**. Antes de incorporarlo a GitHub o a una web pública hay que revisar:
+
+- [ ] **Modo PC:** biblioteca, portada, búsqueda, opciones y fichas, sin escritorio personal visible.
+- [ ] **Google Drive:** conexión, progreso y recuperación; correos y perfiles sustituidos u ocultos.
+- [ ] **Modo Consola:** biblioteca a pantalla completa, selección y navegación.
+- [ ] **Control Center:** métricas y controles reales sin cifras inventadas.
+- [ ] **OSD en juego:** solo después de comprobar que realmente aparece en la captura y que sus lecturas son representativas.
+- [ ] **Promocionales animados:** etiquetarlos como ilustraciones; no presentar interfaces creadas por IA como la aplicación real.
+
+**Importante:** las imágenes y GIF que ya existen en `docs/media/` son **históricos de Game Sync Hub 1.x**. No se deben borrar de forma masiva ni insertar en la nueva portada como demostración de 2.2.1.
+
+El logotipo oficial no se redibuja. Antes de subir imágenes, revisar autoría de las carátulas y evitar publicar correos, tokens, nombres de equipos, rutas privadas o documentos del escritorio.
+
+---
+
+## English
+
+### What to show and what to avoid
+
+Genuine user-facing materials come from the **SYNCORE 2.2.1 recording**. Before adding them to GitHub or a public website, review:
+
+- [ ] **PC Mode:** library, cover art, search, options and game details, with no personal desktop visible.
+- [ ] **Google Drive:** connection, progress and recovery; personal email addresses and profiles replaced or hidden.
+- [ ] **Console Mode:** full-screen library, selection and navigation.
+- [ ] **Control Center:** real metrics and controls without made-up numbers.
+- [ ] **In-game OSD:** only after its actual appearance in footage and representativeness have been checked.
+- [ ] **Animated promos:** label as illustrations; do not present AI-created UI as a real application screenshot.
+
+**Important:** existing images and GIFs in `docs/media/` are **historical Game Sync Hub 1.x media**. They must not be bulk deleted or shown as current 2.2.1 screenshots.
+
+Do not redraw the official logo. Review game cover-art rights and remove emails, tokens, machine names, private paths and desktop documents before uploading screenshots.
+
+---
+
+<sub>SYNCORE Games · IMC93Labs · [Inicio / Home](../../README.md)</sub>

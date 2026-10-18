@@ -1,11 +1,29 @@
-> Historical media / Material histórico. Current SYNCORE Games release / Versión actual: [SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/latest). The captures below are not the current UI / Las capturas no corresponden a la interfaz actual.
+# 🖼️ Documentación visual / Visual documentation
 
-# Visual documentation / Documentación visual
+> **SYNCORE Games** · [Inicio / Home](../../README.md) · [Descarga / Download](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Guía visual / Visual guide](visual-documentation.md)
 
-## English
+**Idioma / Language:** [Español](#español) · [English](#english)
 
-The current bilingual visual guide is available at **[visual-documentation.md](visual-documentation.md)**.
+---
 
 ## Español
 
-La guía visual bilingüe actual está disponible en **[visual-documentation.md](visual-documentation.md)**.
+La guía visual oficial, con una estructura unificada y aclaraciones de privacidad, está disponible aquí:
+
+**[➡️ Abrir la guía visual de SYNCORE Games](visual-documentation.md)**
+
+Las antiguas capturas de Game Sync Hub se conservan únicamente como historial, no como imágenes de la interfaz 2.2.1.
+
+---
+
+## English
+
+The bilingual visual guide, using the current public documentation layout and privacy guidance, is here:
+
+**[➡️ Open the SYNCORE Games visual guide](visual-documentation.md)**
+
+Old Game Sync Hub images are historical archive media, not screenshots of the 2.2.1 interface.
+
+---
+
+<sub>SYNCORE Games · IMC93Labs · [Inicio / Home](../../README.md)</sub>
