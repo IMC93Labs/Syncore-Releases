@@ -1,5 +1,5 @@
-name: Request an improvement / Solicitar una mejora
-description: Suggest a feature or improvement for SYNCORE / Sugiere una función o mejora para SYNCORE
+name: "💡 Mejora / Improvement"
+description: "Proponer una mejora realista / Suggest an improvement"
 title: "[FEATURE] "
 labels:
   - enhancement
@@ -7,46 +7,42 @@ body:
   - type: markdown
     attributes:
       value: |
-        Suggestions are welcome. Please describe the goal rather than only the implementation idea.
-        Las sugerencias son bienvenidas. Describe el objetivo además de la idea de implementación.
+        ## 🇪🇸 Español
+        Describe qué necesitas y para qué serviría. Las ideas son bienvenidas, pero SYNCORE es un proyecto personal: no hay garantía de implementación.
 
-        **Personal hobby project / Proyecto personal:** SYNCORE (formerly Game Sync Hub) is developed in free time through AI-assisted vibe coding. There is no guarantee that a suggestion can be implemented.
-        SYNCORE se desarrolla en el tiempo libre mediante vibe coding asistido por IA. No existe garantía de que una sugerencia pueda implementarse.
+        ## 🇬🇧 English
+        Describe the goal and the user problem it would solve. Suggestions are welcome, but SYNCORE is a personal project and implementation is not guaranteed.
 
+        [Funciones actuales / Current features](https://github.com/IMC93Labs/Syncore-Releases/blob/main/docs/guides/features.md) · [Ayuda / Support](https://github.com/IMC93Labs/Syncore-Releases/blob/main/SUPPORT.md)
   - type: textarea
     id: improvement
     attributes:
-      label: Proposed improvement / Mejora propuesta
-      description: What would you like to add or change? / ¿Qué te gustaría añadir o cambiar?
+      label: "Propuesta / Proposed improvement"
+      description: "¿Qué añadirías o cambiarías? / What would you add or change?"
     validations:
       required: true
-
   - type: textarea
-    id: problem
+    id: reason
     attributes:
-      label: Problem or need / Problema o necesidad
-      description: What problem would this solve or what would it improve? / ¿Qué problema resolvería o qué mejoraría?
+      label: "Necesidad / User need"
+      description: "¿Qué problema resolvería? / What problem would it solve?"
     validations:
       required: true
-
   - type: textarea
     id: behaviour
     attributes:
-      label: Desired behaviour / Funcionamiento deseado
-      description: Describe how you would expect it to work. / Describe cómo te gustaría que funcionara.
-
+      label: "Funcionamiento esperado / Desired behaviour"
   - type: textarea
-    id: additional
+    id: context
     attributes:
-      label: Additional context / Información adicional
-      description: Add examples or screenshots if useful and non-sensitive. / Añade ejemplos o capturas si resultan útiles y no contienen información sensible.
-
+      label: "Ejemplos / Examples"
+      description: "Sin datos privados / No personal data."
   - type: checkboxes
     id: checks
     attributes:
-      label: Checks / Comprobaciones
+      label: "Comprobaciones / Checks"
       options:
-        - label: I searched existing Issues and Discussions for a similar suggestion. / He buscado si ya existe una sugerencia similar en Issues o Discussions.
+        - label: "He buscado propuestas similares / I searched for similar suggestions."
           required: true
-        - label: I have not included passwords, tokens, credentials or personal information. / No he incluido contraseñas, tokens, credenciales ni información personal.
+        - label: "No he compartido credenciales ni datos privados / I have not shared credentials or private data."
           required: true

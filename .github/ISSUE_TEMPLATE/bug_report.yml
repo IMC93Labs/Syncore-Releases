@@ -1,5 +1,5 @@
-name: Report a bug / Reportar un problema
-description: Report unexpected behaviour in SYNCORE / Informa de un error o comportamiento inesperado
+name: "🐛 Error / Bug"
+description: "Comunicar un error reproducible / Report a reproducible bug"
 title: "[BUG] "
 labels:
   - bug
@@ -7,87 +7,78 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a problem.
-        Gracias por dedicar tiempo a informar de un problema.
+        ## 🇪🇸 Español
+        Gracias por informar del problema. Revisa primero las incidencias existentes y la [última versión](https://github.com/IMC93Labs/Syncore-Releases/releases/latest).
 
-        **Personal hobby project / Proyecto personal:** SYNCORE (formerly Game Sync Hub) is developed in free time through AI-assisted vibe coding. It is provided as-is, without guarantees. Do not include passwords, tokens, credentials, private save files or personal information.
-        SYNCORE se desarrolla en el tiempo libre mediante vibe coding asistido por IA. Se proporciona tal cual, sin garantías. No incluyas contraseñas, tokens, credenciales, partidas privadas ni información personal.
+        ## 🇬🇧 English
+        Thank you for reporting a bug. First check existing Issues and the [latest release](https://github.com/IMC93Labs/Syncore-Releases/releases/latest).
 
-        Read / Lee: [Disclaimer / Aviso y responsabilidad](https://github.com/IMC93Labs/Syncore-Releases/blob/main/DISCLAIMER.md)
+        **Privacidad / Privacy:** No incluyas correos personales, contraseñas, tokens OAuth, partidas privadas ni rutas sensibles. Do not share personal email, passwords, OAuth tokens, private saves or sensitive paths.
 
+        [Ayuda / Support](https://github.com/IMC93Labs/Syncore-Releases/blob/main/SUPPORT.md) · [Aviso / Disclaimer](https://github.com/IMC93Labs/Syncore-Releases/blob/main/DISCLAIMER.md)
   - type: input
     id: version
     attributes:
-      label: SYNCORE version / Versión de SYNCORE o Game Sync Hub
-      placeholder: "e.g. / ej. SYNCORE 2.2.1"
+      label: "Versión de SYNCORE / SYNCORE version"
+      placeholder: "Ej. / e.g. 2.2.1"
     validations:
       required: true
-
   - type: input
     id: windows
     attributes:
-      label: Windows version / Versión de Windows
-      placeholder: "e.g. / ej. Windows 11 24H2"
+      label: "Versión de Windows / Windows version"
+      placeholder: "Ej. / e.g. Windows 11 24H2"
     validations:
       required: true
-
   - type: input
     id: game
     attributes:
-      label: Affected game / Juego afectado
-      description: Leave blank if the issue is not related to a specific game. / Déjalo vacío si el problema no afecta a un juego concreto.
-      placeholder: "e.g. / ej. Red Dead Redemption 2"
-
+      label: "Juego afectado, si procede / Affected game, if applicable"
+      placeholder: "Ej. / e.g. Red Dead Redemption 2"
   - type: textarea
-    id: problem
+    id: issue
     attributes:
-      label: What happened? / ¿Qué ha ocurrido?
-      description: Describe the problem clearly. / Describe el problema de forma clara.
+      label: "¿Qué ocurre? / What happens?"
+      description: "Describe el problema / Describe the problem."
     validations:
       required: true
-
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce / Pasos para reproducirlo
-      description: Explain the smallest sequence that reproduces the issue. / Explica la secuencia mínima que reproduce el problema.
+      label: "Pasos para reproducirlo / Steps to reproduce"
+      description: "Indica la secuencia más corta que provoca el error / Provide the shortest sequence reproducing the issue."
       placeholder: |
         1.
         2.
         3.
     validations:
       required: true
-
   - type: textarea
     id: expected
     attributes:
-      label: Expected behaviour / Comportamiento esperado
-      description: What should have happened? / ¿Qué debería haber ocurrido?
-
+      label: "Comportamiento esperado / Expected behaviour"
   - type: dropdown
     id: frequency
     attributes:
-      label: Reproducibility / Frecuencia
+      label: "Frecuencia / Frequency"
       options:
-        - Always / Siempre
-        - Sometimes / A veces
-        - Happened once / Ha ocurrido una vez
-        - Not sure / No estoy seguro
+        - "Siempre / Always"
+        - "A veces / Sometimes"
+        - "Solo una vez / Once"
+        - "No estoy seguro / Not sure"
     validations:
       required: true
-
   - type: textarea
-    id: additional
+    id: context
     attributes:
-      label: Additional information / Información adicional
-      description: Add screenshots, video or logs only if they contain no sensitive information. / Añade capturas, vídeo o registros solo si no contienen información sensible.
-
+      label: "Más información / Additional context"
+      description: "Incluye capturas o registros solo si no revelan datos privados / Include screenshots or logs only if privacy-safe."
   - type: checkboxes
-    id: checks
+    id: confirmation
     attributes:
-      label: Checks / Comprobaciones
+      label: "Comprobaciones / Checks"
       options:
-        - label: I searched existing Issues for the same problem. / He buscado si ya existe un Issue sobre el mismo problema.
+        - label: "He buscado problemas similares / I searched for existing reports."
           required: true
-        - label: I have not included passwords, tokens, credentials, private save files or personal information. / No he incluido contraseñas, tokens, credenciales, partidas privadas ni información personal.
+        - label: "No he incluido datos personales o secretos / I have not shared personal data or secrets."
           required: true
