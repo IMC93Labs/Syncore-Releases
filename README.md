@@ -1,62 +1,87 @@
 # SYNCORE Games
+**Todos tus juegos, un solo lugar. · All your games in one place.**
 
-**SYNCORE 2.2.1 — Windows game library, Console Mode and verified save protection.**
+**SYNCORE** es un organizador y lanzador de juegos para Windows con dos interfaces: **Modo PC** para ratón y teclado y **Modo Consola** para jugar con mando. También ofrece herramientas para proteger partidas, gestionar copias y recuperar datos mediante Google Drive.
 
-SYNCORE Games is the public project description. The Windows application remains named **SYNCORE**.
+**SYNCORE Games** es el nombre público del proyecto; la aplicación instalada sigue llamándose **SYNCORE**.
 
-[Download SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/download/v2.2.1/SynCore-Setup-v2.2.1.exe) · [Latest release and checksums](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [All previous versions](https://github.com/IMC93Labs/Syncore-Releases/releases) · [Features and limitations](docs/guides/features.md)
+[**⬇ Descargar SYNCORE (última versión estable)**](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Funciones](docs/guides/features.md) · [Ayuda](SUPPORT.md) · [English](#english)
 
-## Available
-
-- PC library with grid/list views, complete cover images, search, filters, artwork selection and shared favorites.
-- Controller-oriented Console Mode, Guide/Control Center, compact settings, confirmed dropdown choices and circular navigation.
-- Local save protection, verified Cloud synchronization through your Google Drive configuration, protected history, version selection and safe recovery. Ambiguous versions require a decision; the app does not infer progress from file dates.
-- Own OSD: PresentMon FPS/frametime and available CPU/GPU usage, temperatures, RAM and VRAM. Control Center readings work without a game; FPS/frametime need an active compatible renderer. Metric switches change OSD visibility only.
-- Supported display refresh rates with confirmation, rollback and restoration after the game.
-- Integrated stable-release updater, with explicit installation confirmation and preservation of compatible user data.
-
-## Installation and updates
-
-Windows 10/11 x64. NTFS is required where junction-based protection is used. Runtime components and the existing helper/broker are bundled; SYNCORE runs without administrator rights.
-
-Optional Setup choices are explicit: controller dependencies, CPU temperature through the signed PawnIO driver, and ETW permission for Own. ETW adds the selected local user to Performance Log Users, is reversible and may need sign-out/sign-in. CPU/ETW configuration is not silently applied and is not repeated through UAC per game. Sensor support and anti-cheat policies vary. A game may still require its own UAC independently of SYNCORE.
-
-Supported stable versions can update directly to 2.2.1 without intermediate releases. Normal update/uninstall preserves library, preferences, credentials, saves and protected backups; deleting local data remains a separate explicit destructive choice. Keep independent backups before any installation change.
-
-**The SYNCORE installer is not digitally signed.** Keep Windows protections enabled, use this official repository and compare SHA-256 with the release asset. Signed vendor dependencies do not make the SYNCORE installer signed.
-
-```powershell
-Get-FileHash -Algorithm SHA256 'SynCore-Setup-v2.2.1.exe'
-```
-
-Google Drive requires your own OAuth setup; no account, credentials or personal saves are distributed.
-
-## Limits and validation
-
-Dynamic FPS limiting is **not available**. Own measures Present events; it does not certify final displayed/generated frames. DLSS5 routes are limited to prepared compatible games; Native DX12 has verified internal evaluations, while final visual composition remains unconfirmed. Do not use experimental integrations with anti-cheat-protected games.
-
-Some Show desktop entry points remain unresolved; Win+D and direct game return retain their validated behavior. CPU temperature is shown only with a real supported sensor. The Console Mode Add game entry is reserved for a future controller-adapted flow. Historical CrashReportClient diagnostics are documented with verified backups; they are not save files.
-
-Automated checks and isolated real-game telemetry evidence are recorded in each release. Clean installation, upgrade, reinstall and rollback on additional PCs remain external validation; no universal compatibility is claimed.
-
-The media in `docs/media/` is historical, not a screenshot of the current UI. Previous releases and migration documentation remain available as history.
+**Versión estable actual: 2.2.1** · Windows 10/11 (64 bits) · Descarga gratuita desde GitHub
 
 ---
 
-## Español
+## ¿Qué puedes hacer con SYNCORE?
 
-**SYNCORE Games** es el nombre descriptivo público; la aplicación sigue llamándose **SYNCORE**.
+| | Función | |
+|---|---|---|
+| 🎮 | **Toda tu biblioteca en un sitio** | Añade y ejecuta juegos de PC; busca, ordena, filtra y marca favoritos. |
+| 🖥️ | **Modo PC y Modo Consola** | Biblioteca en cuadrícula o lista y una interfaz adaptada al mando. |
+| 🖼️ | **Portadas e información** | Busca información y elige portadas, fondos y otros elementos multimedia para tus juegos. |
+| 💾 | **Protección de partidas** | Configura carpetas de guardado, conserva copias e historial y recupera versiones con confirmación. |
+| ☁️ | **Google Drive opcional** | Sincroniza y recupera las partidas configuradas, con comprobaciones y resolución de conflictos. |
+| 🎛️ | **Control Center** | Accede con el mando a ajustes rápidos, estado de mandos y opciones de rendimiento disponibles. |
+| 📊 | **Monitorización / OSD** | Consulta métricas de CPU y GPU; FPS y frametime mediante PresentMon en juegos compatibles. |
+| 🔄 | **Actualizaciones** | Detecta nuevas versiones estables y permite actualizar conservando los datos compatibles. |
 
-[Descargar SYNCORE 2.2.1](https://github.com/IMC93Labs/Syncore-Releases/releases/download/v2.2.1/SynCore-Setup-v2.2.1.exe) · [Notas, SHA256 y procedencia](https://github.com/IMC93Labs/Syncore-Releases/releases/latest)
+La disponibilidad de sensores, permisos, compatibilidad de mandos y funciones gráficas depende del equipo y del juego. [Ver funciones y limitaciones reales](docs/guides/features.md).
 
-Biblioteca PC renovada, Modo Consola con mando, Guide y Control Center; protección de partidas, historial y selección de versiones; sincronización verificada con Google Drive y recuperación segura. Las versiones ambiguas se conservan y requieren elegir: una fecha más reciente no demuestra mayor progreso.
+## Empezar en tres pasos
 
-Own mide FPS/frametime mediante PresentMon y muestra los sensores disponibles. Control Center mantiene lecturas de hardware sin juego, aunque los interruptores estén apagados; estos solo controlan su aparición en el OSD. FPS/frametime requieren un juego compatible. Hz permite aplicar, confirmar y restaurar frecuencias compatibles.
+1. **Descarga** el instalador desde [la última publicación oficial](https://github.com/IMC93Labs/Syncore-Releases/releases/latest).
+2. **Instala SYNCORE** en Windows 10/11 x64. El instalador presenta por separado los componentes opcionales y sus permisos.
+3. **Añade un juego** desde Modo PC, selecciona su ejecutable y personaliza su portada. Si quieres proteger sus partidas, configura sus carpetas; Google Drive es opcional.
 
-El instalador incorpora runtimes y componentes. Las opciones PawnIO/temperatura CPU y ETW requieren consentimiento explícito durante Setup; ETW es un permiso reversible para el usuario local y puede requerir cerrar sesión. No se eleva toda la aplicación ni se pide UAC por cada medición. Los juegos pueden solicitar sus propios permisos.
+¿Ya utilizas SYNCORE? Puedes actualizar desde una versión estable compatible mediante el actualizador de la aplicación, sin instalar cada versión intermedia.
 
-Actualización directa a 2.2.1, conservando datos compatibles. La desinstalación normal conserva los datos; su eliminación es una elección destructiva separada. Google Drive necesita configuración OAuth propia. **Instalador sin firma digital:** no desactives las protecciones de Windows y comprueba su SHA256.
+## Importante antes de instalar
 
-Limitaciones: limitador FPS no disponible, composición visual final de DLSS5 Native DX12 no demostrada, algunos accesos de Mostrar escritorio pendientes, sensores dependientes del hardware y asistente de añadir juegos con mando pendiente. Instalación/actualización físicas en otros equipos pendientes de validación externa. No se anuncian estas funciones como terminadas.
+- **El instalador de SYNCORE no tiene firma digital.** Descárgalo únicamente desde este repositorio, mantén las protecciones de Windows y comprueba el archivo SHA256 de la publicación. No necesitas desactivar SmartScreen.
+- **Tus partidas importan.** La protección requiere seleccionar las carpetas correctas y un volumen NTFS para los enlaces de protección; guarda además una copia independiente de las partidas valiosas.
+- **Google Drive necesita tu propia configuración OAuth.** No se suministran cuentas, credenciales ni partidas de otros usuarios.
+- **Permisos opcionales:** la lectura de temperatura CPU y la telemetría ETW pueden necesitar componentes/permisos autorizados durante la instalación; SYNCORE no se ejecuta permanentemente como administrador.
+- **Funciones en desarrollo:** añadir juegos íntegramente con mando, limitar FPS dinámicamente y ciertos accesos del escritorio siguen pendientes. DLSS5/ReShade es experimental, limitado a configuraciones compatibles y no debe utilizarse en juegos protegidos por antitrampas.
 
-[Funciones y límites](docs/guides/features.md) · [Soporte](SUPPORT.md) · [Seguridad](SECURITY.md) · [Historial](https://github.com/IMC93Labs/Syncore-Releases/releases)
+## Ayuda y transparencia
+
+[**Funciones y compatibilidad**](docs/guides/features.md) · [**Notas de la versión 2.2.1**](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.1) · [**Soporte**](SUPPORT.md) · [**Seguridad**](SECURITY.md) · [**Versiones anteriores**](https://github.com/IMC93Labs/Syncore-Releases/releases)
+
+**Próximamente:** capturas y demostraciones de la interfaz actual. Las imágenes de `docs/media/` son históricas de Game Sync Hub 1.x y no se presentan como capturas de SYNCORE 2.2.1. No se publicará material con datos personales.
+
+---
+
+<a id="english"></a>
+## English
+
+### Your PC games, organized — with a controller-friendly Console Mode
+
+**SYNCORE** is a Windows game library and launcher with two interfaces: **PC Mode** for mouse and keyboard, and **Console Mode** for gamepad navigation. **SYNCORE Games** is the public project name; the installed application is still called **SYNCORE**.
+
+[**⬇ Download the latest stable SYNCORE**](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Full feature guide](docs/guides/features.md) · [Support](SUPPORT.md)
+
+**Current stable version: 2.2.1** · Windows 10/11 x64 · Free download on GitHub
+
+### Features at a glance
+
+- **Game library:** add and launch games, search, filter, sort, mark favorites and customize artwork.
+- **PC Mode + Console Mode:** desktop grid/list views and a gamepad-oriented interface with Control Center.
+- **Save protection and recovery:** manage selected save folders, protected backups, version history and guided recovery.
+- **Optional Google Drive sync:** verified transfers and conflict handling using your own OAuth configuration.
+- **Live hardware metrics:** available CPU/GPU data in Control Center, plus PresentMon FPS/frametime for compatible games.
+- **Built-in updater:** stable updates with explicit confirmation and compatible user data preserved.
+
+### Getting started
+
+1. Download the installer from the [official latest release](https://github.com/IMC93Labs/Syncore-Releases/releases/latest).
+2. Install on Windows 10/11 x64; review optional components and permissions during Setup.
+3. Add a game from PC Mode, select its executable, and optionally configure save protection and Google Drive.
+
+### Important limitations
+
+**The SYNCORE installer is not digitally signed.** Keep Windows protections enabled and verify the release SHA256. Save protection requires the correct folders and NTFS for junction-based protection; keep independent backups. Google Drive requires your own OAuth setup. Hardware monitoring and optional permissions vary by system, and the gamepad-native add-game wizard is not yet available. Dynamic FPS limiting is unavailable; DLSS5/ReShade is experimental, not universal, and is not intended for anti-cheat-protected games.
+
+[**Features and limitations**](docs/guides/features.md) · [**2.2.1 release notes**](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.1) · [**Security**](SECURITY.md) · [**Previous releases**](https://github.com/IMC93Labs/Syncore-Releases/releases)
+
+---
+
+SYNCORE Games · IMC93Labs · Public distribution, documentation and support repository. The application source code is not included here.
