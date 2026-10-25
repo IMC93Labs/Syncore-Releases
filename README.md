@@ -6,6 +6,8 @@
 
 **SYNCORE Games** es el nombre público del proyecto. La aplicación se llama **SYNCORE** y está diseñada para Windows.
 
+**Última versión estable / Latest stable release: [2.2.2](docs/releases/v2.2.2.md)** · [Publicación oficial / Official release](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.2). El botón de descarga lleva siempre a la última estable. / The download button always links to the latest stable release.
+
 [**⬇️ DESCARGAR ÚLTIMA VERSIÓN ESTABLE / DOWNLOAD LATEST**](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Funciones / Features](docs/guides/features.md) · [Guía visual / Visual guide](docs/guides/visual-documentation.md) · [Ayuda / Support](SUPPORT.md)
 
 ### 🎬 Descubre SYNCORE Games / Discover SYNCORE Games
@@ -19,6 +21,8 @@
 ### 🕹️ La aplicación real / The real application
 
 ![Modo Consola y Control Center reales / Genuine Console Mode and Control Center](docs/media/current/console-control-center-real.gif)
+
+*Grabación real de SYNCORE 2.2.1, usada como referencia visual; no es una captura nueva de 2.2.2. / Genuine SYNCORE 2.2.1 recording used as a visual reference, not new 2.2.2 footage.*
 
 [**🖼️ Ver capturas reales / See genuine screenshots**](docs/guides/visual-documentation.md)
 
@@ -38,8 +42,9 @@ SYNCORE combina una **biblioteca de juegos para PC**, un **Modo Consola manejabl
 |---|---|
 | 🎮 **Biblioteca de juegos** | Añadir y ejecutar juegos, buscar, ordenar, filtrar, marcar favoritos y personalizar portadas y fondos. |
 | 🖥️ **Modo PC** | Gestionar la biblioteca, las fichas de juegos y sus opciones con teclado y ratón. |
-| 🕹️ **Modo Consola** | Explorar y ejecutar juegos con una interfaz a pantalla completa adaptada al mando. |
-| 🎛️ **Control Center** | Acceder a ajustes rápidos, opciones de audio y rendimiento, y controles del OSD disponibles. |
+| 🕹️ **Modo Consola** | Explorar y ejecutar juegos con mando; al regresar, la navegación continúa mientras se comprueban las partidas en segundo plano. |
+| 🕹️ **Mini Arcade** | Snake, Dino Run, Flappy y Breakout durante el lanzamiento; récords y último minijuego guardados, con sonidos opcionales. |
+| 🎛️ **Control Center** | Abrir ajustes rápidos sobre los juegos con el botón Guide: audio, rendimiento compatible y opciones del OSD. |
 | 💾 **Protección de partidas** | Configurar carpetas, mantener respaldos e historial y recuperar versiones de guardados. |
 | ☁️ **Google Drive opcional** | Sincronizar y recuperar las partidas configuradas; comprobar versiones y resolver divergencias antes de sustituir datos. |
 | 📊 **Monitorización / OSD** | Consultar sensores disponibles de CPU, GPU y memoria; medir FPS y frametime mediante PresentMon en juegos compatibles. |
@@ -59,12 +64,12 @@ SYNCORE combina una **biblioteca de juegos para PC**, un **Modo Consola manejabl
 - **El instalador de SYNCORE no está firmado digitalmente.** Descarga únicamente de este repositorio, mantén las protecciones de Windows activadas y contrasta el SHA-256 publicado con el archivo descargado. [Verificar una descarga](docs/guides/quick-start.md).
 - La protección de partidas requiere seleccionar **las carpetas correctas** y un volumen **NTFS** donde se utilicen enlaces de protección. Conserva también respaldos independientes.
 - La nube requiere **tu propia configuración OAuth de Google Drive**. SYNCORE no distribuye cuentas ni credenciales.
-- Las temperaturas, FPS y demás métricas dependen de sensores, permisos y juegos compatibles; si no hay datos fiables, no se inventan lecturas.
-- **Todavía no están terminados** el asistente completo de añadir juegos con mando y el limitador dinámico de FPS. DLSS5/ReShade es experimental y de compatibilidad limitada; no se recomienda usarlo con juegos protegidos por antitrampas. [Consultar límites](docs/guides/features.md).
+- Las temperaturas, FPS y demás métricas dependen de sensores, permisos y juegos compatibles; si no hay datos fiables, no se inventan lecturas. En 2.2.2 una prueba de cadencia de sensores quedó en 194 muestras frente a 200 exigidas.
+- **El asistente completo de añadir juegos con mando sigue pendiente y el limitador de FPS no está disponible** por falta de backend funcional. DLSS5/ReShade continúa siendo experimental, con composición visual final Native DX12 sin verificar; evita juegos protegidos por antitrampas. [Consultar límites](docs/guides/features.md).
 
 ### Guías y comunidad
 
-**[📘 Empezar](docs/guides/quick-start.md)** · **[🖼️ Pantallas reales](docs/guides/visual-documentation.md)** · **[🧩 Funciones y límites](docs/guides/features.md)** · **[💬 Preguntas y ayuda](SUPPORT.md)** · **[🐛 Informar de un error](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
+**[🆕 Novedades 2.2.2](docs/releases/v2.2.2.md)** · **[📘 Empezar](docs/guides/quick-start.md)** · **[🖼️ Pantallas reales](docs/guides/visual-documentation.md)** · **[🧩 Funciones y límites](docs/guides/features.md)** · **[💬 Preguntas y ayuda](SUPPORT.md)** · **[🐛 Informar de un error](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
 
 ---
 
@@ -80,8 +85,9 @@ SYNCORE is a **Windows game library and launcher** with a controller-friendly **
 |---|---|
 | 🎮 **Game library** | Add and launch games; search, sort, filter, mark favourites and customise artwork. |
 | 🖥️ **PC Mode** | Manage the library and game settings with keyboard and mouse. |
-| 🕹️ **Console Mode** | Browse and launch games from a full-screen, gamepad-oriented interface. |
-| 🎛️ **Control Center** | Access quick settings, available audio and performance options, and OSD controls. |
+| 🕹️ **Console Mode** | Browse and launch games with a controller; on return, library navigation continues while save checks run in the background. |
+| 🕹️ **Mini Arcade** | Snake, Dino Run, Flappy and Breakout during launch, with saved high scores, last choice and optional sounds. |
+| 🎛️ **Control Center** | Open in-game quick settings with Guide: audio, supported performance controls and OSD options. |
 | 💾 **Save protection** | Choose save folders, keep protected backups and history, and recover saved versions. |
 | ☁️ **Optional Google Drive** | Synchronise configured game saves, compare versions and resolve conflicts before replacing data. |
 | 📊 **Monitoring / OSD** | View available CPU/GPU/memory readings; PresentMon FPS and frametime on supported games. |
@@ -101,12 +107,12 @@ SYNCORE is a **Windows game library and launcher** with a controller-friendly **
 - **The SYNCORE installer is unsigned.** Use this official repository, keep Windows protections enabled and verify the published SHA-256. [Download verification guide](docs/guides/quick-start.md).
 - Save protection needs the correct folders and **NTFS** where protective links are used. Keep independent backups.
 - Cloud sync requires **your own Google Drive OAuth configuration**; no account or credentials are supplied.
-- Hardware readings and frame metrics depend on supported sensors, permissions and games; unavailable data is never fabricated.
-- The gamepad-native **Add game** wizard and dynamic FPS limiter are **not finished**. DLSS5/ReShade integrations are experimental and limited; avoid anti-cheat-protected games. [Full feature matrix](docs/guides/features.md).
+- Hardware readings and frame metrics depend on supported sensors, permissions and games; unavailable data is never fabricated. In 2.2.2 one sensor-cadence check recorded 194 samples versus a target of 200.
+- The controller-native **Add game** wizard is pending, and **FPS limiting is unavailable** without a working backend. DLSS5/ReShade remains experimental, with unverified final Native DX12 visual composition; avoid anti-cheat-protected games. [Full feature matrix](docs/guides/features.md).
 
 ### Guides and community
 
-**[📘 Quick start](docs/guides/quick-start.md)** · **[🖼️ Genuine screenshots](docs/guides/visual-documentation.md)** · **[🧩 Features & limitations](docs/guides/features.md)** · **[💬 Support](SUPPORT.md)** · **[🐛 Report an issue](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
+**[🆕 What's new in 2.2.2](docs/releases/v2.2.2.md)** · **[📘 Quick start](docs/guides/quick-start.md)** · **[🖼️ Genuine screenshots](docs/guides/visual-documentation.md)** · **[🧩 Features & limitations](docs/guides/features.md)** · **[💬 Support](SUPPORT.md)** · **[🐛 Report an issue](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
 
 ---
 

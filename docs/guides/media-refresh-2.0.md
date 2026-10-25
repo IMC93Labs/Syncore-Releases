@@ -8,9 +8,9 @@
 
 ## Español
 
-### Qué mostrar y qué evitar
+### Archivo del plan de medios de 2.2.1
 
-El material auténtico destinado a usuarios procede de la grabación de **SYNCORE 2.2.1**. Antes de incorporarlo a GitHub o a una web pública hay que revisar:
+Los medios auténticos de **SYNCORE 2.2.1** ya están publicados en [`docs/media/current/`](../media/current/). El siguiente listado se conserva como **checklist de revisión original**, no como pendientes de la nueva versión 2.2.2:
 
 - [ ] **Modo PC:** biblioteca, portada, búsqueda, opciones y fichas, sin escritorio personal visible.
 - [ ] **Google Drive:** conexión, progreso y recuperación; correos y perfiles sustituidos u ocultos.
@@ -27,9 +27,9 @@ El logotipo oficial no se redibuja. Antes de subir imágenes, revisar autoría d
 
 ## English
 
-### What to show and what to avoid
+### Archived 2.2.1 media plan
 
-Genuine user-facing materials come from the **SYNCORE 2.2.1 recording**. Before adding them to GitHub or a public website, review:
+Genuine media recorded with **SYNCORE 2.2.1** is already published in [`docs/media/current/`](../media/current/). The following is the **original review checklist**, not current 2.2.2 work:
 
 - [ ] **PC Mode:** library, cover art, search, options and game details, with no personal desktop visible.
 - [ ] **Google Drive:** connection, progress and recovery; personal email addresses and profiles replaced or hidden.

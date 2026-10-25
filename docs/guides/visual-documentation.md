@@ -8,9 +8,9 @@
 
 ## Español
 
-### SYNCORE 2.2.1: capturas y demostraciones
+### Capturas auténticas de referencia (grabadas en SYNCORE 2.2.1)
 
-Estas imágenes muestran la aplicación real. Las capturas se han revisado y anonimizado para su publicación.
+Estas imágenes muestran la aplicación real grabada en **2.2.1** y están anonimizadas. La estable actual es **2.2.2**: su interfaz y Mini Arcade pueden diferir, por lo que estas imágenes no se presentan como capturas nuevas de 2.2.2. [Novedades de 2.2.2](../releases/v2.2.2.md).
 
 #### Biblioteca · Modo PC
 
@@ -42,7 +42,7 @@ La cuenta y el equipo de la imagen son datos de demostración; no representan un
 
 La animación procede de una grabación de SYNCORE. El GIF promocional del mando que aparece al inicio del README es una ilustración conceptual, no una captura literal de la aplicación. [Ver el vídeo promocional con música](../media/current/SYNCORE_Games_profesor_mando_sin_pata.mp4).
 
-**Archivo histórico:** las capturas y GIF que permanecen directamente en [`docs/media/`](../media/) corresponden a Game Sync Hub 1.x; no representan SYNCORE 2.2.1. Los medios actuales de SYNCORE están en [`docs/media/current/`](../media/current/).
+**Archivo histórico:** las capturas y GIF que permanecen directamente en [`docs/media/`](../media/) corresponden a Game Sync Hub 1.x; no representan la versión SYNCORE 2.2.2. Los medios actuales de SYNCORE están en [`docs/media/current/`](../media/current/).
 
 [Funciones reales y sus límites](features.md) · [Primeros pasos](quick-start.md)
 
@@ -50,9 +50,9 @@ La animación procede de una grabación de SYNCORE. El GIF promocional del mando
 
 ## English
 
-### SYNCORE 2.2.1: screenshots and demonstrations
+### Genuine reference screenshots (recorded in SYNCORE 2.2.1)
 
-These images show the actual application. The screenshots were reviewed and anonymized for publication.
+These images show the actual **2.2.1** application and were anonymized. The current stable version is **2.2.2**; its UI and Mini Arcade may differ, so these are not presented as new 2.2.2 screenshots. [What's new in 2.2.2](../releases/v2.2.2.md).
 
 #### Library · PC Mode
 
@@ -84,7 +84,7 @@ The account and computer shown are demonstration data; they do not represent a p
 
 This animation comes from a SYNCORE recording. The controller GIF at the top of the README is conceptual promotional artwork, not a literal screenshot of the application. [Watch the music-backed promo video](../media/current/SYNCORE_Games_profesor_mando_sin_pata.mp4).
 
-**Historical archive:** screenshots and GIFs kept directly in [`docs/media/`](../media/) belong to Game Sync Hub 1.x; they do not depict SYNCORE 2.2.1. Current SYNCORE media is stored in [`docs/media/current/`](../media/current/).
+**Historical archive:** screenshots and GIFs kept directly in [`docs/media/`](../media/) belong to Game Sync Hub 1.x; they do not depict SYNCORE 2.2.2. Current SYNCORE media is stored in [`docs/media/current/`](../media/current/).
 
 [Real features and limitations](features.md) · [Quick start](quick-start.md)
 

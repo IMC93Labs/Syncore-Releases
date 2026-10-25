@@ -12,7 +12,7 @@ La guía visual oficial, con una estructura unificada y aclaraciones de privacid
 
 **[➡️ Abrir la guía visual de SYNCORE Games](visual-documentation.md)**
 
-Las antiguas capturas de Game Sync Hub se conservan únicamente como historial, no como imágenes de la interfaz 2.2.1.
+Las imágenes principales se grabaron con SYNCORE 2.2.1 y son referencias para la versión actual 2.2.2, no capturas recientes. Las antiguas imágenes de Game Sync Hub son archivo histórico. [Novedades 2.2.2](../releases/v2.2.2.md).
 
 ---
 
@@ -22,7 +22,7 @@ The bilingual visual guide, using the current public documentation layout and pr
 
 **[➡️ Open the SYNCORE Games visual guide](visual-documentation.md)**
 
-Old Game Sync Hub images are historical archive media, not screenshots of the 2.2.1 interface.
+Main screenshots were recorded on SYNCORE 2.2.1; they are reference images for 2.2.2, not newly captured footage. Old Game Sync Hub images are historical. [2.2.2 release notes](../releases/v2.2.2.md).
 
 ---
 

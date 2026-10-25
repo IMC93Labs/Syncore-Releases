@@ -10,7 +10,7 @@
 
 ### 1 · Descargar
 
-Accede a [la última versión estable](https://github.com/IMC93Labs/Syncore-Releases/releases/latest), despliega **Assets** y descarga **`SynCore-Setup-vX.Y.Z.exe`**. La aplicación está dirigida a Windows 10/11 x64.
+Accede a [la última versión estable](https://github.com/IMC93Labs/Syncore-Releases/releases/latest), despliega **Assets** y descarga **`SynCore-Setup-vX.Y.Z.exe`**. Al actualizar esta guía la estable es **2.2.2**, pero el enlace siempre apunta a la más reciente. Para Windows 10/11 x64.
 
 ### 2 · Verificar el archivo
 
@@ -36,7 +36,7 @@ Puedes enlazar **tu propia cuenta y configuración OAuth de Google Drive** para 
 
 ### 5 · Jugar y pedir ayuda
 
-Entra en **Modo Consola** desde SYNCORE para navegar con el mando. Las métricas de Control Center/OSD aparecen solo si el hardware y el juego permiten lecturas válidas.
+Entra en **Modo Consola** desde SYNCORE para navegar con el mando. En 2.2.2 se añade **Mini Arcade**: Snake, Dino Run, Flappy y Breakout mientras se inicia el juego; se guardan los récords y el último minijuego. Las métricas de Control Center/OSD dependen de hardware y juego. El limitador de FPS no está disponible y DLSS5 sigue siendo experimental.
 
 [Funciones](features.md) · [Guía visual](visual-documentation.md) · [Ayuda](../../SUPPORT.md) · [Versiones](https://github.com/IMC93Labs/Syncore-Releases/releases)
 
@@ -46,7 +46,7 @@ Entra en **Modo Consola** desde SYNCORE para navegar con el mando. Las métricas
 
 ### 1 · Download
 
-Open the [latest stable release](https://github.com/IMC93Labs/Syncore-Releases/releases/latest), expand **Assets** and download **`SynCore-Setup-vX.Y.Z.exe`** for Windows 10/11 x64.
+Open the [latest stable release](https://github.com/IMC93Labs/Syncore-Releases/releases/latest), expand **Assets** and download **`SynCore-Setup-vX.Y.Z.exe`** for Windows 10/11 x64. At the time of this guide, the stable version is **2.2.2**, but the link always points to the latest stable release.
 
 ### 2 · Verify the file
 
@@ -72,7 +72,7 @@ Optional Google Drive synchronisation needs **your own OAuth configuration and a
 
 ### 5 · Play and get help
 
-Enter **Console Mode** to browse with a gamepad. Control Center/OSD readings are shown only where valid data is available.
+Enter **Console Mode** to browse with a gamepad. Version 2.2.2 adds **Mini Arcade** (Snake, Dino Run, Flappy and Breakout) while launching games, with saved scores and last choice. Control Center/OSD requires valid readings. FPS limiting is unavailable, and DLSS5 remains experimental.
 
 [Features](features.md) · [Visual guide](visual-documentation.md) · [Support](../../SUPPORT.md) · [Releases](https://github.com/IMC93Labs/Syncore-Releases/releases)
 

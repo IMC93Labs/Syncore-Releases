@@ -14,9 +14,10 @@
 
 La publicación oficial incluye instalador, comprobación SHA-256 y notas. La **versión vigente se determina por GitHub Releases**, no por las antiguas notas archivadas.
 
-### Historial
+### Versión actual e historial
 
-- [Notas de SYNCORE 2.2.1](v2.2.1.md).
+- **[SYNCORE 2.2.2 — novedades y limitaciones](v2.2.2.md)** · [Publicación oficial](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.2).
+- [SYNCORE 2.2.1 (versión anterior)](v2.2.1.md).
 - Game Sync Hub histórico: [1.1.0](v1.1.0.md), [1.0.15](v1.0.15.md), [1.0.13](v1.0.13.md), [1.0.12](v1.0.12.md) y [1.0.11](v1.0.11.md).
 
 Las notas antiguas mantienen las cifras, pruebas y afirmaciones que se publicaron entonces; **no describen la versión actual**.
@@ -31,9 +32,10 @@ Las notas antiguas mantienen las cifras, pruebas y afirmaciones que se publicaro
 
 Official releases provide an installer, SHA-256 verification and release notes. **GitHub Releases identifies the current version**, not the older archived documents.
 
-### Archive
+### Current release and archive
 
-- [SYNCORE 2.2.1 notes](v2.2.1.md).
+- **[SYNCORE 2.2.2 — changes and limitations](v2.2.2.md)** · [Official release](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.2).
+- [SYNCORE 2.2.1 (previous release)](v2.2.1.md).
 - Historical Game Sync Hub: [1.1.0](v1.1.0.md), [1.0.15](v1.0.15.md), [1.0.13](v1.0.13.md), [1.0.12](v1.0.12.md) and [1.0.11](v1.0.11.md).
 
 Old notes preserve their original figures, tests and release-era statements; **they do not describe the current application**.
