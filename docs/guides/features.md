@@ -10,7 +10,7 @@
 
 SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponible**, **opcional**, **experimental** y **pendiente** no significan lo mismo: aquí se indican claramente.
 
-| Área | Estado en la versión 2.2.1 | Qué debes saber |
+| Área | Estado en la versión 2.2.2 | Qué debes saber |
 |---|---|---|
 | 🎮 Biblioteca / Modo PC | **Disponible** | Cuadrícula y lista, búsqueda, filtros, favoritos, carátulas, fondos y opciones de juegos. |
 | 🕹️ Modo Consola | **Disponible** | Navegación con mando, selección de juegos y menús, Control Center y ajustes adaptados. |
@@ -23,7 +23,8 @@ SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponib
 | 🔄 Actualizador | **Disponible** | Descargas verificadas y consentimiento explícito antes de instalar versiones compatibles. |
 | 🧪 DLSS5 / ReShade | **Experimental** | Integraciones existentes para juegos preparados; composición visual final Native DX12 y compatibilidad general no demostradas. Evita antitrampas. |
 | ⏳ Añadir juegos con mando | **Pendiente** | La entrada de Modo Consola está reservada; el asistente completo se realiza en Modo PC. |
-| ⏳ Limitador dinámico de FPS | **No disponible** | El selector continúa deshabilitado. |
+| 🕹️ Mini Arcade | **Disponible** | Snake, Dino Run, Flappy y Breakout durante la carga; récords independientes y sonidos opcionales. Se retira al entregar el control al juego. |
+| ⏳ Limitador dinámico de FPS | **No disponible** | No se ofrece un selector sin backend funcional. |
 
 ### Consideraciones técnicas
 
@@ -43,7 +44,7 @@ SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponib
 
 SYNCORE brings several tools into one Windows application. **Available**, **optional**, **experimental**, and **not yet available** are different statuses and should never be conflated.
 
-| Feature | Status in 2.2.1 | What to expect |
+| Feature | Status in 2.2.2 | What to expect |
 |---|---|---|
 | 🎮 Game library / PC Mode | **Available** | Grid/list, search, filters, favourites, artwork and game options. |
 | 🕹️ Console Mode | **Available** | Controller navigation, game selection, menus, Control Center and adapted settings. |
@@ -56,7 +57,8 @@ SYNCORE brings several tools into one Windows application. **Available**, **opti
 | 🔄 Built-in updater | **Available** | Integrity-checked updates with explicit installation approval. |
 | 🧪 DLSS5 / ReShade | **Experimental** | Existing prepared-game integrations; Native DX12 final composition and broad compatibility unproven. Avoid anti-cheat-protected games. |
 | ⏳ Controller-native Add game | **Pending** | Console entry reserved; complete game setup is handled from PC Mode. |
-| ⏳ Dynamic FPS limiter | **Unavailable** | Selector remains disabled. |
+| 🕹️ Mini Arcade | **Available** | Snake, Dino Run, Flappy and Breakout while loading; separate records and optional sounds. Stops when control passes to the game. |
+| ⏳ Dynamic FPS limiter | **Unavailable** | No selector is offered without a working backend. |
 
 ### Technical notes
 
