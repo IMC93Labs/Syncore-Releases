@@ -6,7 +6,7 @@
 
 **SYNCORE Games** es el nombre público del proyecto. La aplicación se llama **SYNCORE** y está diseñada para Windows.
 
-**Última versión estable / Latest stable release: [2.2.2](docs/releases/v2.2.2.md)** · [Publicación oficial / Official release](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.2). El botón de descarga lleva siempre a la última estable. / The download button always links to the latest stable release.
+**Última versión estable / Latest stable release: [2.2.3](docs/releases/v2.2.3.md)** · [Publicación oficial / Official release](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.3). El botón de descarga lleva siempre a la última estable. / The download button always links to the latest stable release.
 
 [**⬇️ DESCARGAR ÚLTIMA VERSIÓN ESTABLE / DOWNLOAD LATEST**](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Funciones / Features](docs/guides/features.md) · [Guía visual / Visual guide](docs/guides/visual-documentation.md) · [Ayuda / Support](SUPPORT.md)
 
@@ -22,7 +22,7 @@
 
 ![Modo Consola y Control Center reales / Genuine Console Mode and Control Center](docs/media/current/console-control-center-real.gif)
 
-*Grabación real de SYNCORE 2.2.1, usada como referencia visual; no es una captura nueva de 2.2.2. / Genuine SYNCORE 2.2.1 recording used as a visual reference, not new 2.2.2 footage.*
+*Grabación real de SYNCORE 2.2.1, usada como referencia visual; no es una captura nueva de 2.2.3. / Genuine SYNCORE 2.2.1 recording used as a visual reference, not new 2.2.3 footage.*
 
 [**🖼️ Ver capturas reales / See genuine screenshots**](docs/guides/visual-documentation.md)
 
@@ -64,12 +64,12 @@ SYNCORE combina una **biblioteca de juegos para PC**, un **Modo Consola manejabl
 - **El instalador de SYNCORE no está firmado digitalmente.** Descarga únicamente de este repositorio, mantén las protecciones de Windows activadas y contrasta el SHA-256 publicado con el archivo descargado. [Verificar una descarga](docs/guides/quick-start.md).
 - La protección de partidas requiere seleccionar **las carpetas correctas** y un volumen **NTFS** donde se utilicen enlaces de protección. Conserva también respaldos independientes.
 - La nube requiere **tu propia configuración OAuth de Google Drive**. SYNCORE no distribuye cuentas ni credenciales.
-- Las temperaturas, FPS y demás métricas dependen de sensores, permisos y juegos compatibles; si no hay datos fiables, no se inventan lecturas. En 2.2.2 una prueba de cadencia de sensores quedó en 194 muestras frente a 200 exigidas.
+- Las temperaturas, FPS y demás métricas dependen de sensores, permisos y juegos compatibles; si no hay datos fiables, no se inventan lecturas. En la validación anterior de 2.2.2 una prueba de cadencia de sensores quedó en 194 muestras frente a 200 exigidas.
 - **El asistente completo de añadir juegos con mando sigue pendiente y el limitador de FPS no está disponible** por falta de backend funcional. DLSS5/ReShade continúa siendo experimental, con composición visual final Native DX12 sin verificar; evita juegos protegidos por antitrampas. [Consultar límites](docs/guides/features.md).
 
 ### Guías y comunidad
 
-**[🆕 Novedades 2.2.2](docs/releases/v2.2.2.md)** · **[📘 Empezar](docs/guides/quick-start.md)** · **[🖼️ Pantallas reales](docs/guides/visual-documentation.md)** · **[🧩 Funciones y límites](docs/guides/features.md)** · **[💬 Preguntas y ayuda](SUPPORT.md)** · **[🐛 Informar de un error](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
+**[🆕 Novedades 2.2.3](docs/releases/v2.2.3.md)** · **[📘 Empezar](docs/guides/quick-start.md)** · **[🖼️ Pantallas reales](docs/guides/visual-documentation.md)** · **[🧩 Funciones y límites](docs/guides/features.md)** · **[💬 Preguntas y ayuda](SUPPORT.md)** · **[🐛 Informar de un error](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
 
 ---
 
@@ -107,12 +107,12 @@ SYNCORE is a **Windows game library and launcher** with a controller-friendly **
 - **The SYNCORE installer is unsigned.** Use this official repository, keep Windows protections enabled and verify the published SHA-256. [Download verification guide](docs/guides/quick-start.md).
 - Save protection needs the correct folders and **NTFS** where protective links are used. Keep independent backups.
 - Cloud sync requires **your own Google Drive OAuth configuration**; no account or credentials are supplied.
-- Hardware readings and frame metrics depend on supported sensors, permissions and games; unavailable data is never fabricated. In 2.2.2 one sensor-cadence check recorded 194 samples versus a target of 200.
+- Hardware readings and frame metrics depend on supported sensors, permissions and games; unavailable data is never fabricated. In the previous 2.2.2 validation one sensor-cadence check recorded 194 samples versus a target of 200.
 - The controller-native **Add game** wizard is pending, and **FPS limiting is unavailable** without a working backend. DLSS5/ReShade remains experimental, with unverified final Native DX12 visual composition; avoid anti-cheat-protected games. [Full feature matrix](docs/guides/features.md).
 
 ### Guides and community
 
-**[🆕 What's new in 2.2.2](docs/releases/v2.2.2.md)** · **[📘 Quick start](docs/guides/quick-start.md)** · **[🖼️ Genuine screenshots](docs/guides/visual-documentation.md)** · **[🧩 Features & limitations](docs/guides/features.md)** · **[💬 Support](SUPPORT.md)** · **[🐛 Report an issue](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
+**[🆕 What's new in 2.2.3](docs/releases/v2.2.3.md)** · **[📘 Quick start](docs/guides/quick-start.md)** · **[🖼️ Genuine screenshots](docs/guides/visual-documentation.md)** · **[🧩 Features & limitations](docs/guides/features.md)** · **[💬 Support](SUPPORT.md)** · **[🐛 Report an issue](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
 
 ---
 

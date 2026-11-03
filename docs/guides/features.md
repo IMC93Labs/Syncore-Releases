@@ -10,7 +10,7 @@
 
 SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponible**, **opcional**, **experimental** y **pendiente** no significan lo mismo: aquí se indican claramente.
 
-| Área | Estado en la versión 2.2.2 | Qué debes saber |
+| Área | Estado en la versión 2.2.3 | Qué debes saber |
 |---|---|---|
 | 🎮 Biblioteca / Modo PC | **Disponible** | Cuadrícula y lista, búsqueda, filtros, favoritos, carátulas, fondos y opciones de juegos. |
 | 🕹️ Modo Consola | **Disponible** | Navegación con mando; al volver del juego, se puede navegar mientras se verifican las partidas en segundo plano. |
@@ -46,7 +46,7 @@ SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponib
 
 SYNCORE brings several tools into one Windows application. **Available**, **optional**, **experimental**, and **not yet available** are different statuses and should never be conflated.
 
-| Feature | Status in 2.2.2 | What to expect |
+| Feature | Status in 2.2.3 | What to expect |
 |---|---|---|
 | 🎮 Game library / PC Mode | **Available** | Grid/list, search, filters, favourites, artwork and game options. |
 | 🕹️ Console Mode | **Available** | Controller navigation; on game exit the library responds while save checks run in the background. |
