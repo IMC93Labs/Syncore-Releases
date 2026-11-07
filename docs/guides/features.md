@@ -10,7 +10,7 @@
 
 SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponible**, **opcional**, **experimental** y **pendiente** no significan lo mismo: aquí se indican claramente.
 
-| Área | Estado en la versión 2.2.3 | Qué debes saber |
+| Área | Estado en la versión 2.2.4 | Qué debes saber |
 |---|---|---|
 | 🎮 Biblioteca / Modo PC | **Disponible** | Cuadrícula y lista, búsqueda, filtros, favoritos, carátulas, fondos y opciones de juegos. |
 | 🕹️ Modo Consola | **Disponible** | Navegación con mando; al volver del juego, se puede navegar mientras se verifican las partidas en segundo plano. |
@@ -26,6 +26,8 @@ SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponib
 | ⏳ Añadir juegos con mando | **Pendiente** | La entrada de Modo Consola está reservada; el asistente completo se realiza en Modo PC. |
 | 🕹️ Mini Arcade | **Disponible** | Snake, Dino Run, Flappy y Breakout durante la carga; récords independientes y sonidos opcionales. Se retira al entregar el control al juego. |
 | ⏳ Limitador de FPS | **No disponible** | No hay backend operativo para aplicar un límite de FPS; no se ofrece un selector funcional. |
+
+**RGB SOYO B650 ITX — experimental, opcional:** paleta, brillo, velocidad y escenas. OpenRGB debe estar cerrado. La pérdida intermitente de respuesta y la validación física final siguen pendientes; no se garantiza compatibilidad con otras placas. / **SOYO RGB — experimental and optional:** colour, brightness, speed and scenes; close OpenRGB. Intermittent loss of response and final physical validation remain pending; other boards are not supported.
 
 ### Consideraciones técnicas
 
@@ -46,7 +48,7 @@ SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponib
 
 SYNCORE brings several tools into one Windows application. **Available**, **optional**, **experimental**, and **not yet available** are different statuses and should never be conflated.
 
-| Feature | Status in 2.2.3 | What to expect |
+| Feature | Status in 2.2.4 | What to expect |
 |---|---|---|
 | 🎮 Game library / PC Mode | **Available** | Grid/list, search, filters, favourites, artwork and game options. |
 | 🕹️ Console Mode | **Available** | Controller navigation; on game exit the library responds while save checks run in the background. |
