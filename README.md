@@ -6,7 +6,7 @@
 
 **SYNCORE Games** es el nombre público del proyecto. La aplicación se llama **SYNCORE** y está diseñada para Windows.
 
-**Última versión estable / Latest stable release: [2.2.6](docs/releases/v2.2.6.md)** · [Publicación oficial / Official release](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.6). El botón de descarga lleva siempre a la última estable. / The download button always links to the latest stable release.
+**Última versión estable / Latest stable release: [2.2.7](docs/releases/v2.2.7.md)** · [Publicación oficial / Official release](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.7). El botón de descarga lleva siempre a la última estable. / The download button always links to the latest stable release.
 
 [**⬇️ DESCARGAR ÚLTIMA VERSIÓN ESTABLE / DOWNLOAD LATEST**](https://github.com/IMC93Labs/Syncore-Releases/releases/latest) · [Funciones / Features](docs/guides/features.md) · [Guía visual / Visual guide](docs/guides/visual-documentation.md) · [Ayuda / Support](SUPPORT.md)
 
@@ -22,7 +22,7 @@
 
 ![Modo Consola y Control Center reales / Genuine Console Mode and Control Center](docs/media/current/console-control-center-real.gif)
 
-*Grabación real de SYNCORE 2.2.1, usada como referencia visual; no es una captura nueva de 2.2.6. / Genuine SYNCORE 2.2.1 recording used as a visual reference, not new 2.2.6 footage.*
+*Grabación real de SYNCORE 2.2.1, usada como referencia visual; no es una captura nueva de 2.2.7. / Genuine SYNCORE 2.2.1 recording used as a visual reference, not new 2.2.7 footage.*
 
 [**🖼️ Ver capturas reales / See genuine screenshots**](docs/guides/visual-documentation.md)
 
@@ -69,7 +69,7 @@ SYNCORE combina una **biblioteca de juegos para PC**, un **Modo Consola manejabl
 
 ### Guías y comunidad
 
-**[🆕 Novedades 2.2.6](docs/releases/v2.2.6.md)** · **[📘 Empezar](docs/guides/quick-start.md)** · **[🖼️ Pantallas reales](docs/guides/visual-documentation.md)** · **[🧩 Funciones y límites](docs/guides/features.md)** · **[💬 Preguntas y ayuda](SUPPORT.md)** · **[🐛 Informar de un error](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
+**[🆕 Novedades 2.2.7](docs/releases/v2.2.7.md)** · **[📘 Empezar](docs/guides/quick-start.md)** · **[🖼️ Pantallas reales](docs/guides/visual-documentation.md)** · **[🧩 Funciones y límites](docs/guides/features.md)** · **[💬 Preguntas y ayuda](SUPPORT.md)** · **[🐛 Informar de un error](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
 
 ---
 
@@ -112,7 +112,7 @@ SYNCORE is a **Windows game library and launcher** with a controller-friendly **
 
 ### Guides and community
 
-**[🆕 What's new in 2.2.6](docs/releases/v2.2.6.md)** · **[📘 Quick start](docs/guides/quick-start.md)** · **[🖼️ Genuine screenshots](docs/guides/visual-documentation.md)** · **[🧩 Features & limitations](docs/guides/features.md)** · **[💬 Support](SUPPORT.md)** · **[🐛 Report an issue](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
+**[🆕 What's new in 2.2.7](docs/releases/v2.2.7.md)** · **[📘 Quick start](docs/guides/quick-start.md)** · **[🖼️ Genuine screenshots](docs/guides/visual-documentation.md)** · **[🧩 Features & limitations](docs/guides/features.md)** · **[💬 Support](SUPPORT.md)** · **[🐛 Report an issue](https://github.com/IMC93Labs/Syncore-Releases/issues/new/choose)**
 
 ---
 
