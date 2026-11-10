@@ -16,7 +16,8 @@ La publicación oficial incluye instalador, comprobación SHA-256 y notas. La **
 
 ### Versión actual e historial
 
-- **[SYNCORE 2.2.2 — novedades y limitaciones](v2.2.2.md)** · [Publicación oficial](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.2).
+- **[SYNCORE 2.2.8 — permisos de Drive y catálogo seguro](v2.2.8.md)** · [Publicación oficial](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.8).
+- [SYNCORE 2.2.2 — novedades y limitaciones](v2.2.2.md) · [Publicación oficial](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.2).
 - [SYNCORE 2.2.1 (versión anterior)](v2.2.1.md).
 - Game Sync Hub histórico: [1.1.0](v1.1.0.md), [1.0.15](v1.0.15.md), [1.0.13](v1.0.13.md), [1.0.12](v1.0.12.md) y [1.0.11](v1.0.11.md).
 
@@ -34,7 +35,8 @@ Official releases provide an installer, SHA-256 verification and release notes. 
 
 ### Current release and archive
 
-- **[SYNCORE 2.2.2 — changes and limitations](v2.2.2.md)** · [Official release](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.2).
+- **[SYNCORE 2.2.8 — Drive permissions and safe catalog updates](v2.2.8.md)** · [Official release](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.8).
+- [SYNCORE 2.2.2 — changes and limitations](v2.2.2.md) · [Official release](https://github.com/IMC93Labs/Syncore-Releases/releases/tag/v2.2.2).
 - [SYNCORE 2.2.1 (previous release)](v2.2.1.md).
 - Historical Game Sync Hub: [1.1.0](v1.1.0.md), [1.0.15](v1.0.15.md), [1.0.13](v1.0.13.md), [1.0.12](v1.0.12.md) and [1.0.11](v1.0.11.md).
 

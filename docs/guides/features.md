@@ -10,7 +10,7 @@
 
 SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponible**, **opcional**, **experimental** y **pendiente** no significan lo mismo: aquí se indican claramente.
 
-| Área | Estado en la versión 2.2.7 | Qué debes saber |
+| Área | Estado en la versión 2.2.8 | Qué debes saber |
 |---|---|---|
 | 🎮 Biblioteca / Modo PC | **Disponible** | Cuadrícula y lista, búsqueda, filtros, favoritos, carátulas, fondos y opciones de juegos. |
 | 🕹️ Modo Consola | **Disponible** | Navegación con mando; al volver del juego, se puede navegar mientras se verifican las partidas en segundo plano. |
@@ -48,7 +48,7 @@ SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponib
 
 SYNCORE brings several tools into one Windows application. **Available**, **optional**, **experimental**, and **not yet available** are different statuses and should never be conflated.
 
-| Feature | Status in 2.2.7 | What to expect |
+| Feature | Status in 2.2.8 | What to expect |
 |---|---|---|
 | 🎮 Game library / PC Mode | **Available** | Grid/list, search, filters, favourites, artwork and game options. |
 | 🕹️ Console Mode | **Available** | Controller navigation; on game exit the library responds while save checks run in the background. |
@@ -82,6 +82,8 @@ SYNCORE brings several tools into one Windows application. **Available**, **opti
 
 <sub>SYNCORE Games · IMC93Labs · [Inicio / Home](../../README.md)</sub>
 
-### Actualización 2.2.7 / Updating to 2.2.7
+### Actualización 2.2.8 / Updating to 2.2.8
 
-La actualización conserva la conexión de Drive y las credenciales cifradas del mismo usuario de Windows. No desconectes Drive ni elimines los datos locales para actualizar. La instalación y el intercambio de partidas se han verificado en dos PC físicos. / Updating preserves the same Windows user’s encrypted Drive credentials. Do not disconnect Drive or delete local data to update. Installation and save exchange have been validated on two physical PCs.
+La actualización conserva la conexión de Drive y las credenciales cifradas del mismo usuario de Windows. No desconectes Drive ni elimines los datos locales para actualizar. La instalación de 2.2.8 se comprobó en dos PC físicos; el intercambio A1/B2 se validó previamente en 2.2.7. / Updating preserves the same Windows user’s encrypted Drive credentials. Do not disconnect Drive or delete local data to update. Version 2.2.8 was installed on two physical PCs; the A1/B2 exchange was previously validated with 2.2.7.
+
+Para gestionar archivos añadidos desde Drive Desktop u otras aplicaciones, utiliza **Ajustes → Google Drive → Más opciones → Ampliar permisos de Drive**. Google pide autorización explícita para acceder a toda tu cuenta de Drive. Puedes cancelar sin sustituir la conexión anterior; la conexión normal sigue usando permisos limitados. / To manage files added through Drive Desktop or other applications, use **Settings → Google Drive → More options → Expand Drive permissions**. Google requests explicit consent for full-account Drive access. Cancelling preserves the previous connection; normal connections remain file-scoped.
