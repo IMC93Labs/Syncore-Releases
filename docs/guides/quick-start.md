@@ -32,7 +32,7 @@ Abre SYNCORE y añade un juego desde el **Modo PC**. Selecciona sus rutas y arte
 
 Configura la **carpeta real de partidas** de cada juego antes de activar su protección. El sistema de enlaces requiere **NTFS** donde se aplique. Conserva una copia adicional fuera de SYNCORE.
 
-Puedes enlazar **tu propia cuenta y configuración OAuth de Google Drive** para sincronizar copias de partidas y recuperarlas. Confirma manualmente las versiones cuando exista un conflicto: la fecha de un archivo no demuestra qué partida tiene mayor progreso. Google Drive no sustituye a una copia de seguridad independiente.
+En **Ajustes → Google Drive**, conecta una cuenta de Google autorizada como probadora para sincronizar y recuperar partidas. El cliente incluido está en modo Prueba y la autorización caduca a los siete días. Confirma manualmente las versiones cuando exista un conflicto: la fecha de un archivo no demuestra qué partida tiene mayor progreso. Google Drive no sustituye a una copia de seguridad independiente.
 
 ### 5 · Jugar y pedir ayuda
 
@@ -68,7 +68,7 @@ Add games from **PC Mode** and configure their files and artwork. The fully cont
 
 Select each game's **actual save folder**. Junction-based protection needs **NTFS**, and independent backups remain important.
 
-Optional Google Drive synchronisation needs **your own OAuth configuration and account**. Resolve ambiguous save versions manually: timestamps are not reliable proof of game progress. Cloud synchronisation is not a substitute for independent backups.
+In **Settings → Google Drive**, connect a Google account authorized as a test user to sync and recover saves. The built-in client is in Testing mode and authorization expires after seven days. Resolve ambiguous save versions manually: timestamps are not reliable proof of game progress. Cloud synchronisation is not a substitute for independent backups.
 
 ### 5 · Play and get help
 

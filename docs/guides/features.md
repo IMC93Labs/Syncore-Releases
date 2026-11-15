@@ -16,7 +16,7 @@ SYNCORE reúne varias herramientas en una única aplicación Windows. **Disponib
 | 🕹️ Modo Consola | **Disponible** | Navegación con mando; al volver del juego, se puede navegar mientras se verifican las partidas en segundo plano. |
 | 🎛️ Control Center sobre el juego | **Disponible según equipo/permisos** | Guide abre el panel; energía y prioridad reflejan estados reales solo cuando Windows permite consultarlos o modificarlos. |
 | 💾 Protección de partidas | **Disponible con configuración** | Copias verificadas, historial y recuperación controlada. Necesita identificar bien las carpetas y NTFS cuando se utilizan junctions. |
-| ☁️ Google Drive | **Opcional** | Sincronización y recuperación verificadas, reintentos y conflictos que requieren decisión. Requiere tu propia configuración OAuth, conectividad y autorización. |
+| ☁️ Google Drive | **Opcional** | Sincronización y recuperación verificadas, reintentos y conflictos que requieren decisión. Requiere conexión y una cuenta autorizada como probadora en el cliente OAuth incluido. |
 | 📊 PresentMon / OSD | **Condicionado** | FPS y frametime en juegos/renderizadores compatibles y con permisos necesarios. Mide eventos Present, no certifica fotogramas finales generados. |
 | 🌡️ Telemetría | **Condicionado** | Carga de CPU/GPU, temperaturas y RAM/VRAM si hay sensores/lecturas válidas. Control Center puede mostrar lecturas sin juego. |
 | 🔊 Audio y ajustes de rendimiento | **Disponible según función/equipo** | Control Center muestra ajustes compatibles y evita afirmar capacidades no disponibles. |
@@ -54,7 +54,7 @@ SYNCORE brings several tools into one Windows application. **Available**, **opti
 | 🕹️ Console Mode | **Available** | Controller navigation; on game exit the library responds while save checks run in the background. |
 | 🎛️ In-game Control Center | **System/permission-dependent** | Guide opens the panel; power and priority show actual states only where Windows permits reading or changing them. |
 | 💾 Save protection | **Available with setup** | Verified backups, history and controlled recovery. Correct save paths and NTFS for junctions are essential. |
-| ☁️ Google Drive | **Optional** | Verified save synchronisation and recovery, retries and conflict decisions. Requires your own OAuth setup, network and authorisation. |
+| ☁️ Google Drive | **Optional** | Verified save synchronisation and recovery, retries and conflict decisions. Requires connectivity and an account authorized as a test user on the built-in OAuth client. |
 | 📊 PresentMon / OSD | **Compatibility-dependent** | FPS/frametime for supported games/renderers with required permissions. Present events are not proof of final displayed/generated frames. |
 | 🌡️ Hardware telemetry | **Compatibility-dependent** | CPU/GPU load, temperatures and RAM/VRAM when reliable sensors are available. Control Center can read hardware without a game. |
 | 🔊 Audio & performance controls | **Feature/system-dependent** | Control Center exposes supported settings without claiming unavailable capabilities. |
@@ -86,4 +86,4 @@ SYNCORE brings several tools into one Windows application. **Available**, **opti
 
 La actualización conserva la conexión de Drive y las credenciales cifradas del mismo usuario de Windows. No desconectes Drive ni elimines los datos locales para actualizar. La instalación de 2.2.8 se comprobó en dos PC físicos; el intercambio A1/B2 se validó previamente en 2.2.7. / Updating preserves the same Windows user’s encrypted Drive credentials. Do not disconnect Drive or delete local data to update. Version 2.2.8 was installed on two physical PCs; the A1/B2 exchange was previously validated with 2.2.7.
 
-Para gestionar archivos añadidos desde Drive Desktop u otras aplicaciones, utiliza **Ajustes → Google Drive → Más opciones → Ampliar permisos de Drive**. Google pide autorización explícita para acceder a toda tu cuenta de Drive. Puedes cancelar sin sustituir la conexión anterior; la conexión normal sigue usando permisos limitados. / To manage files added through Drive Desktop or other applications, use **Settings → Google Drive → More options → Expand Drive permissions**. Google requests explicit consent for full-account Drive access. Cancelling preserves the previous connection; normal connections remain file-scoped.
+Al conectar en 2.2.9, Google solicita acceso completo a Drive. El cliente incluido está en modo Prueba. Las autorizaciones caducan a los siete días y puede ser necesario reconectar. / In 2.2.9, Google requests full Drive access when connecting. The built-in client is in Testing mode. Authorization expires after seven days and users may need to reconnect.
